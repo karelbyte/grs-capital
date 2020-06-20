@@ -89,21 +89,21 @@
 <!-- Scroll to top button End -->
 
 
-<script src="js/jquery.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/navigation.js"></script>
-<script src="js/navigation.fixed.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/tabs.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/swiper.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="js/switcher.js"></script>
-<script src="js/map.js"></script>
-<script src="js/main.js"></script>
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/popper.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/owl.carousel.js')}}"></script>
+<script src="{{asset('js/navigation.js')}}"></script>
+<script src="{{asset('js/navigation.fixed.js')}}"></script>
+<script src="{{asset('js/wow.min.js')}}"></script>
+<script src="{{asset('js/jquery.counterup.min.js')}}"></script>
+<script src="{{asset('js/waypoints.min.js')}}"></script>
+<script src="{{asset('js/tabs.min.js')}}"></script>
+<script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
+<script src="{{asset('js/swiper.min.js')}}"></script>
+<script src="{{asset('js/modernizr.js')}}"></script>
+<script src="{{asset('js/switcher.js')}}"></script>
+<script src="{{asset('js/map.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>
 </body>
 </html>
