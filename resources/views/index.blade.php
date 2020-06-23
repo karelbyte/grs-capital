@@ -36,7 +36,7 @@
 <!--Boxes START -->
 @component('components.boxes-start')@endcomponent
 <!--Features Section START-->
-@component('components.featutes-start')@endcomponent
+@component('components.features-start')@endcomponent
 <!-- Feedback Section START -->
 @component('components.feeback-start')@endcomponent
 
