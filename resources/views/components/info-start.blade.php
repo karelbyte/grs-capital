@@ -3,27 +3,30 @@
         <div class="row">
             <div class="col-md-5 col-sm-6 col-12">
                 <div class="section-heading mt-30">
-                    <h4 style="color:navajowhite">Siempre somos rápidos y confiables.</h4>
-                    <span>Y tú ¿qué tipo de inversionista eres?</span>
+                    <h4 style="color:navajowhite">{!!trans('messages.info-start-caption')!!}</h4>
+                    <span>{!!trans('messages.info-start-question')!!}</span>
 
                     <div class="section-heading-line-left"></div>
                 </div>
                 <div class="text-content mt-25">
                     <p>
                     <ul class="white-list">
-                        <li><i class="fa fa-caret-right"></i> <span style="color:rgb(255,190,2)">Inversionista de alto riesgo.</span></li>
-                        <li><i class="fa fa-caret-right"></i><span style="color:rgb(186,146,24)">Inversionista de Riesgo Moderado.</span> </li>
-                        <li><i class="fa fa-caret-right"></i> <span style="color:rgba(158,130,39,0.69)">Inversionista de Riesgo Mínimo.</span></li>
-                        <li><i class="fa fa-caret-right"></i> <span style="color:rgb(97,91,75)">Inversionista de Riesgo Cero.</span></li>
+                        <li><i class="fa fa-caret-right"></i> <span style="color:rgb(255,190,2)">{!!trans('messages.info-start-type-1')!!}</span></li>
+                        <li><i class="fa fa-caret-right"></i><span style="color:rgb(186,146,24)">{!!trans('messages.info-start-type-2')!!}</span> </li>
+                        <li><i class="fa fa-caret-right"></i> <span style="color:rgba(158,130,39,0.69)">{!!trans('messages.info-start-type-3')!!}</span></li>
+                        <li><i class="fa fa-caret-right"></i> <span style="color:rgb(97,91,75)">{!!trans('messages.info-start-type-4')!!}</span></li>
                     </ul>
                     </p>
                 </div>
                 <div class="mt-25">
-                    <a href="#" class="primary-button button-md">Se nuestro cliente</a>
+                    <a href="#" class="primary-button button-md">{!!trans('messages.info-start-contact')!!}</a>
                 </div>
             </div>
             <div class="col-md-7 col-sm-6 col-12">
-                <img src="{{asset('img/faster.jpg')}}" alt="image">
+                <div class="feature-block-1">
+                    <img src="{{asset('img/faster-v2.jpeg')}}" alt="image">
+                </div>
+
             </div>
         </div>
     </div>

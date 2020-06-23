@@ -8538,3 +8538,13 @@ Styles 4
     width: 10px;
     height: 10px;
 }
+
+/* ---- FIX */
+.feature-block-1 {
+    position: relative;
+    text-align: center;
+    background: #ffac06;
+    padding: 3px;
+    margin: 15px 0;
+    opacity: 0.4;
+}
