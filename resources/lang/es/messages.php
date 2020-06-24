@@ -69,4 +69,22 @@ return [
     'feedback-send-email' => 'Correo electrónico',
     'feedback-send-msj' => 'Su mensaje',
     'feedback-send-emit' => 'Enviar',
+
+
+
+    // Page contact
+    'page-contact-caption' => 'Contacto',
+    'page-contact-breadcrumbs-1' => 'Inicio',
+    'page-contact-breadcrumbs-2' => 'Contacto',
+    'page-contact-msj-caption' => 'Hablanos de tus intereses',
+    'page-contact-msj-subject' => 'Nombre y apellidos',
+    'page-contact-msj-name' => 'Nombre y apellidos',
+    'page-contact-msj-email' => 'Correo electrónico',
+    'page-contact-msj-message' => 'Su mensaje',
+    'page-contact-msj-emit' => 'Enviar',
+    'page-contact-info-call' => 'Llamar a',
+    'page-contact-info-message' => 'Mensajes',
+    'page-contact-info-address' => 'Dirección',
+    'page-contact-info-hours' => 'Horario',
+    'page-contact-info-days' => 'Lun-Sab',
 ];

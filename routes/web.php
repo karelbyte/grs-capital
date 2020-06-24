@@ -18,6 +18,14 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
 function parseDefaultLanguage($http_accept, $deflang = "en") {
 
     if (isset($http_accept) && strlen($http_accept) > 1)  {

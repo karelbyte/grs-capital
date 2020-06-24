@@ -74,4 +74,21 @@ return [
     'feedback-send-email' => 'Email',
     'feedback-send-msj' => 'Your message',
     'feedback-send-emit' => 'Send',
+
+
+    // Page contact
+    'page-contact-caption' => 'Contact',
+    'page-contact-breadcrumbs-1' => 'Home',
+    'page-contact-breadcrumbs-2' => 'Contact',
+    'page-contact-msj-caption' => 'Tell us about your interests',
+    'page-contact-msj-subject' => 'Subject',
+    'page-contact-msj-name' => 'Name',
+    'page-contact-msj-email' => 'Email',
+    'page-contact-msj-message' => 'Message',
+    'page-contact-msj-emit' => 'Send Message',
+    'page-contact-info-call' => 'Call Us',
+    'page-contact-info-message' => 'Message',
+    'page-contact-info-address' => 'Our Location',
+    'page-contact-info-hours' => 'Working Hours',
+    'page-contact-info-days' => 'Mon-Sat',
 ];
