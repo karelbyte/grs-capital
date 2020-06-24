@@ -46,4 +46,14 @@ return [
     'info-box-item3-caption' => 'No le gusta arriesgar su patrimonio, pero entiende la necesidad de mover el dinero, por tanto quiere invertirlo, pero al menor riesgo posible.',
     'info-box-item4-head' => 'Riesgo Cero.',
     'info-box-item4-caption' => 'Usted no tolera el riesgo, pero aun asi no quiere que su dinero se deprecie y busca vencer, al menos, a la inflación sin que su dinero corra riesgo alguno.',
+
+    // FEATURES
+    'features-caption-1' => 'Has lo correcto en el momento correcto!',
+    'features-caption-2' => 'Todo portafolio de inversión serio debe estar estructurado teniendo en cuenta tres planes.',
+    'features-plan1-head' => 'Plan para ser ricos',
+    'features-plan1-caption' => 'Alto riesgo, altos rendimientos!',
+    'features-plan2-head' => 'Plan para estar cómodos',
+    'features-plan2-caption' => 'Rendimientos medios!',
+    'features-plan3-head' => 'Plan para estar seguros',
+    'features-plan3-caption' => 'Rendimientos bajos!',
 ];

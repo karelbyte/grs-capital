@@ -46,9 +46,9 @@
     <div class="row">
       <!-- Column 1 Start -->
       <div class="col-md-6 col-sm-6 col-12">
-        <h3 style="color:navajowhite;">GRS - CAPITAL SA de CV.</h3>
+        <h5 style="color:navajowhite;">GRS Capital SA de CV y GRS Sociedad de Inversión ®</h5>
         <div class="mt-25">
-          <p class="mt-25">Marca registrada de Grupo RSantos SA de CV, empresa Mexicana dedicada a gestión de capitales, buscando excelentes oportunidades de inversión,
+          <p class="mt-25">Fondo de Inversión y Marca registrada de Grupo RSantos SA de CV, empresa Mexicana dedicada a la gestión de patrimonios, buscando excelentes oportunidades de inversión,
               ya sea en Bienes Raíces, en el Sistema Financiero o el Mercado de Divisas.</p>
           <div class="footer-social-icons mt-25">
             <ul>

@@ -24,7 +24,7 @@
             </div>
             <div class="col-md-7 col-sm-6 col-12">
                 <div class="feature-block-1">
-                    <img src="{{asset('img/faster-v2.jpeg')}}" alt="image">
+                    <img src="{{asset('img/faster-v3.png')}}" alt="image">
                 </div>
 
             </div>
