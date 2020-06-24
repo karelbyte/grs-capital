@@ -48,7 +48,7 @@ return [
     'info-box-item4-caption' => 'Usted no tolera el riesgo, pero aun asi no quiere que su dinero se deprecie y busca vencer, al menos, a la inflación sin que su dinero corra riesgo alguno.',
 
     // FEATURES
-    'features-caption-1' => 'Has lo correcto en el momento correcto!',
+    'features-caption-1' => 'Haz lo correcto en el momento correcto!',
     'features-caption-2' => 'Todo portafolio de inversión serio debe estar estructurado teniendo en cuenta tres planes.',
     'features-plan1-head' => 'Plan para ser ricos',
     'features-plan1-caption' => 'Alto riesgo, altos rendimientos!',
@@ -56,4 +56,17 @@ return [
     'features-plan2-caption' => 'Rendimientos medios!',
     'features-plan3-head' => 'Plan para estar seguros',
     'features-plan3-caption' => 'Rendimientos bajos!',
+
+    // Feeback
+    'feedback-question' => 'Te surgen interrogantes?',
+    'feedback-p1' => 'Hay muchos motivos por los que puedes querer ponerte en contacto, <b>contratar nuestros servicios</b>,
+                            consultar tus dudas, información sobre las inversiones que te interesan.',
+    'feedback-p2' => 'Todos ellos son excelentes motivos, así que adelante!.',
+    'feedback-p3' => 'Solicite más información y reciba sin compromiso el consejo personalizado de nuestros asesores.',
+    'feedback-p4' => 'No olvides revisar nuestra Cláusula de Privacidad.',
+    'feedback-send-caption' => 'Envíenos sus datos y nos pondremos en contacto a la brevedad',
+    'feedback-send-name' => 'Nombre y apellidos',
+    'feedback-send-email' => 'Correo electrónico',
+    'feedback-send-msj' => 'Su mensaje',
+    'feedback-send-emit' => 'Enviar',
 ];

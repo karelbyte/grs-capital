@@ -38,7 +38,7 @@
 <!--Features Section START-->
 @component('components.features-start')@endcomponent
 <!-- Feedback Section START -->
-@component('components.feeback-start')@endcomponent
+@component('components.feedback-start')@endcomponent
 
 <!-- Footer START -->
 <footer>
