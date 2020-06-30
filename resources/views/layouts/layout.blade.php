@@ -27,6 +27,7 @@
 @yield('content')
 <!-- Footer START -->
 @component('components.footer')@endcomponent
+@include('cookieConsent::index')
 <!-- Scroll to top button Start -->
 <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 <!-- Scroll to top button End -->
