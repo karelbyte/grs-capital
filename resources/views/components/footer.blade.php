@@ -21,7 +21,7 @@
             <!-- Column 2 Start -->
             <div class="col-md-6 col-sm-6 col-12">
                 <ul class="footer-list">
-                    <li><a href="#">{!!trans('messages.footer-home')!!}</a></li>
+                    <li><a href="#">{!!trans('messages.footer-link-home')!!}</a></li>
                     <li><a href="#">{!!trans('messages.footer-link-l1')!!}</a></li>
                     <li><a href="#">{!!trans('messages.footer-link-l2')!!}</a></li>
                     <li><a href="#">{!!trans('messages.footer-link-l3')!!}</a></li>

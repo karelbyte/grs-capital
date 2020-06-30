@@ -88,6 +88,24 @@ return [
     'page-contact-info-hours' => 'Horario',
     'page-contact-info-days' => 'Lun-Sab',
 
+
+    // Page about
+    'page-about-caption' => 'Nosotros',
+    'page-about-breadcrumbs-1' => 'Inicio',
+    'page-about-breadcrumbs-2' => 'Nosotros',
+    'page-about-msj-caption' => 'Tell us about your interests',
+    'page-about-msj-subject' => 'Subject',
+    'page-about-msj-name' => 'Name',
+    'page-about-msj-email' => 'Email',
+    'page-about-msj-message' => 'Message',
+    'page-about-msj-emit' => 'Send Message',
+    'page-about-info-call' => 'Call Us',
+    'page-about-info-message' => 'Message',
+    'page-about-info-address' => 'Our Location',
+    'page-about-info-hours' => 'Working Hours',
+    'page-about-info-days' => 'Mon-Sat',
+
+    // FOOTER
     'footer-caption' => 'GRS Capital SA de CV y GRS Sociedad de Inversión ®',
     'footer-content' => 'Fondo de Inversión y Marca registrada de Grupo RSantos SA de CV, empresa Mexicana dedicada a la gestión de patrimonios, buscando excelentes oportunidades de inversión,
                         ya sea en Bienes Raíces, en el Sistema Financiero o el Mercado de Divisas.',

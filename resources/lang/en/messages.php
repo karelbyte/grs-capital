@@ -93,6 +93,23 @@ Financial independence is achieved by learning to invest for passive income (inc
     'page-contact-info-hours' => 'Working Hours',
     'page-contact-info-days' => 'Mon-Sat',
 
+    // Page about
+    'page-about-caption' => 'about',
+    'page-about-breadcrumbs-1' => 'Home',
+    'page-about-breadcrumbs-2' => 'about',
+    'page-about-msj-caption' => 'Tell us about your interests',
+    'page-about-msj-subject' => 'Subject',
+    'page-about-msj-name' => 'Name',
+    'page-about-msj-email' => 'Email',
+    'page-about-msj-message' => 'Message',
+    'page-about-msj-emit' => 'Send Message',
+    'page-about-info-call' => 'Call Us',
+    'page-about-info-message' => 'Message',
+    'page-about-info-address' => 'Our Location',
+    'page-about-info-hours' => 'Working Hours',
+    'page-about-info-days' => 'Mon-Sat',
+
+
 
     // FOOTER
     'footer-caption' => 'GRS Capital SA de CV y GRS Investment Company ®',

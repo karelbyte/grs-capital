@@ -6,10 +6,10 @@
 @component('components.navbar')@endcomponent
 <div class="page-title-section" style="background-image: url({{asset('img/about.png')}});">
   <div class="container">
-    <h1 style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-caption')!!}</h1>
+    <h1 style="color:rgb( 66, 64,58)">{!!trans('messages.page-about-caption')!!}</h1>
     <ul>
-      <li><a href="/" style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-breadcrumbs-1')!!}</a></li>
-      <li><a href="/contact" style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-breadcrumbs-2')!!}</a></li>
+      <li><a href="/" style="color:rgb( 66, 64,58)">{!!trans('messages.page-about-breadcrumbs-1')!!}</a></li>
+      <li><a href="/contact" style="color:rgb( 66, 64,58)">{!!trans('messages.page-about-breadcrumbs-2')!!}</a></li>
     </ul>
   </div>
 </div>
