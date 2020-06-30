@@ -25,7 +25,7 @@
                     <li><a href="#">{!!trans('messages.footer-link-l1')!!}</a></li>
                     <li><a href="{{url('privacy-policy')}}">{!!trans('messages.footer-link-l2')!!}</a></li>
                     <li><a href="{{url('legal')}}">{!!trans('messages.footer-link-l3')!!}</a></li>
-                    <li><a href="#">{!!trans('messages.footer-link-l4')!!}</a></li>
+                    <li><a href="{{url('terms')}}">{!!trans('messages.footer-link-l4')!!}</a></li>
                 </ul>
             </div>
         </div>
