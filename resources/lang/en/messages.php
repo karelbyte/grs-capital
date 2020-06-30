@@ -94,9 +94,9 @@ Financial independence is achieved by learning to invest for passive income (inc
     'page-contact-info-days' => 'Mon-Sat',
 
     // Page about
-    'page-about-caption' => 'about',
+    'page-about-caption' => 'About',
     'page-about-breadcrumbs-1' => 'Home',
-    'page-about-breadcrumbs-2' => 'about',
+    'page-about-breadcrumbs-2' => 'About',
     'page-about-msj-caption' => 'Tell us about your interests',
     'page-about-msj-subject' => 'Subject',
     'page-about-msj-name' => 'Name',
