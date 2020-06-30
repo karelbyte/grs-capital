@@ -4,7 +4,7 @@
 @component('components.top-bar')@endcomponent
 <!-- Navbar START -->
 @component('components.navbar')@endcomponent
-<div class="page-title-section" style="background-image: url({{asset('img/banner-2.png')}});">
+<div class="page-title-section" style="background-image: url({{asset('img/about.png')}});">
   <div class="container">
     <h1 style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-caption')!!}</h1>
     <ul>
