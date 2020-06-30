@@ -413,7 +413,7 @@ $(document).ready(function () {
   if ($("#swiper-parallax").length !== 0) {
     var swiper = new Swiper('.swiper-container', {
       parallax: true,
-      navigation: {
+      /*navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
@@ -421,15 +421,15 @@ $(document).ready(function () {
         el: '.swiper-pagination',
         dynamicBullets: true,
       },
-      pagination: '.swiper-pagination',
-      paginationClickable: true,
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
+      pagination: '.swiper-pagination', */
+      paginationClickable: false,
+     // nextButton: '.swiper-button-next',
+     // prevButton: '.swiper-button-prev',
       spaceBetween: 0,
-      loop: false,
+      loop: true,
       simulateTouch: true,
-      autoplay: false,
-      speed: 1000,
+      autoplay: true,
+      speed: 6000,
     });
   }
 

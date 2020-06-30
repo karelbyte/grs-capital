@@ -1,7 +1,6 @@
 <div class="swiper-container" id="swiper-parallax">
     <div class="parallax-bg" style="background-image:url('{{asset('img/slide_v2.jpeg')}}')" data-swiper-parallax="-23%"></div>
     <div class="swiper-wrapper">
-
         <div class="swiper-slide">
             <div class="container">
                 <div class="slider-content left-holder">
@@ -23,7 +22,6 @@
                 </div>
             </div>
         </div>
-
         <div class="swiper-slide">
             <div class="container">
                 <div class="slider-content left-holder">
@@ -42,7 +40,6 @@
                 </div>
             </div>
         </div>
-
         <div class="swiper-slide">
             <div class="container">
                 <div class="slider-content left-holder">
@@ -63,6 +60,6 @@
         </div>
     </div>
 
-    <div class="swiper-button-prev swiper-button-white"></div>
-    <div class="swiper-button-next swiper-button-white"></div>
+   <!-- <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div> -->
 </div>
