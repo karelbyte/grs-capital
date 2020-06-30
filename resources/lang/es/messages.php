@@ -1,6 +1,6 @@
 <?php
 return [
-    'top_bar_msj' => 'Bienvenido a su administrador de capital!',
+    'top_bar_msj' => 'Bienvenido a su adminstrador de capital!',
 
     'nav-home' => 'INICIO',
     'nav-services' => 'SERVICIOS',
@@ -18,7 +18,8 @@ return [
     'parallax-content-2' => 'Le garantizamos que funciona, a nosotros en GRS nos ha funcionado magníficamente. Aquí se la podemos sintetizar de un modo sencillo,'.
                                 'usted no tiene que buscar <b>"la riqueza"</b> como un concepto abstracto, su búsqueda tiene que orientarse a lograr la <b>independencia financiera.</b>',
     'parallax-head-3' => ' El dinero nunca duerme!',
-    'parallax-content-3' => 'La independencia financiera se logra aprendiendo a invertir para conseguir ingresos pasivos y continuar con esa actividad hasta que los mismos superen sus gastos habituales.',
+    'parallax-content-3' => 'La independencia financiera se logra aprendiendo a invertir para conseguir ingresos pasivos (ingresos por los cuales usted no
+    tiene que trabajar, o sea, dinero generando dinero), y continuar con esta actividad hasta que los mismos superen sus gastos habituales.',
     'parallax-contact' => 'Contactanos',
  // INFO STAR
     'info-start-caption'  => 'Somos ágiles y confiables en nuestras inversiones.',
@@ -35,9 +36,8 @@ return [
     'info-box-caption-3' => 'Trabajamos contigo',
     'info-box-content' => 'Existen diferentes tipos de inversionistas de acuerdo al riesgo que están dispuestos a aceptar. Nosotros podemos ayudarle
                             a averiguar que tipo de inversionista es usted y además podemos ayudarle a desarrollar un portafolio de inversiones a corto,
-                            mediano y largo plazo, diversificado y con diferentes niveles de riesgo en Bienes Raíces, Mercados Financieros,
-                            Intercambio de Monedas (Forex), entre otros...',
-    'info-box-contact' => 'Quiero saber mas...',
+                            mediano y largo plazo, diversificado y con diferentes niveles de riesgo que incluya Bienes raíces, Mercados financieros y Mercado de divisas (Forex), entre otros…',
+    'info-box-contact' => 'Quieres saber más?',
     'info-box-item1-head' => 'Alto riesgo.',
     'info-box-item1-caption' => 'Busca los mayores rendimientos posibles, entiende la relación riesgo/rendimiento y está dispuesto a asumir el riesgo adecuado de acuerdo al rendimiento esperado.',
     'info-box-item2-head' => 'Riesgo Moderado.',
@@ -62,7 +62,7 @@ return [
     'feedback-p1' => 'Hay muchos motivos por los que puedes querer ponerte en contacto, <b>contratar nuestros servicios</b>,
                             consultar tus dudas, información sobre las inversiones que te interesan.',
     'feedback-p2' => 'Todos ellos son excelentes motivos, así que adelante!.',
-    'feedback-p3' => 'Solicite más información y reciba sin compromiso el consejo personalizado de nuestros asesores.',
+    'feedback-p3' => 'Solicite más información y reciba, sin compromiso, el consejo personalizado de nuestros asesores.',
     'feedback-p4' => 'No olvides revisar nuestra Cláusula de Privacidad.',
     'feedback-send-caption' => 'Envíenos sus datos y nos pondremos en contacto a la brevedad',
     'feedback-send-name' => 'Nombre y apellidos',

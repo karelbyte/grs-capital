@@ -1,6 +1,6 @@
 <?php
 return [
-    'top_bar_msj' => 'Welcome to your administrator capital incrementor!',
+    'top_bar_msj' => 'Welcome to your portfolio manager!',
     'nav-home' => 'HOME',
     'nav-services' => 'SERVICES',
     'nav-projects' => 'PROJECTS',
@@ -18,8 +18,9 @@ return [
          you do not have to search for <b> "wealth" </b> as an abstract concept, your search must be oriented towards achieving
           <b> financial independence. </b>',
     'parallax-head-3' => 'Money never sleeps!',
-    'parallax-content-3' => 'Financial independence is achieved by learning to invest in order to obtain passive income
-     and continue with this activity until they exceed your usual expenses.',
+    'parallax-content-3' => '266/5000
+Financial independence is achieved by learning to invest for passive income (income for which you do not
+     you have to work, that is, money generating money), and continue with this activity until they exceed your usual expenses.',
     'parallax-contact' => 'Contact us',
     // INFO STAR
     'info-start-caption'  => 'We are agile and reliable in our investments.',
@@ -28,7 +29,7 @@ return [
     'info-start-type-2'  => 'Moderate Risk Investor.',
     'info-start-type-3'  => 'Minimal Risk Investor.',
     'info-start-type-4'  => 'Zero Risk Investor.',
-    'info-start-contact' => 'You want to know more?',
+    'info-start-contact' => 'Wants to know more?',
 
     // BOX START
     'info-box-caption-1' => 'Any project in mind?',
@@ -38,7 +39,7 @@ return [
                              to find out what type of investor you are and we can also help you develop a short investment portfolio,
                              medium and long term, diversified and with different levels of risk in Real Estate, Financial Markets,
                              Currency Exchange (Forex), among others ...',
-    'info-box-contact' => 'I want to know more...',
+    'info-box-contact' => 'Wants to know more?',
     'info-box-item1-head' => 'High risk.',
     'info-box-item1-caption' => 'It seeks the highest possible returns, understands the risk/return ratio and is willing
     to take the appropriate risk according to the expected return.',
