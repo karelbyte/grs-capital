@@ -25,12 +25,12 @@
                 </ul>
             </div>
             <div class="col-md-2 col-12">
-                <ul class="social-icons hidden-md-down">
+                <ul class="social-icons">
                     @if (config('locale.status') && count(config('locale.languages')) > 1)
-                        <div class="links">
+                        <div>
                             @foreach (array_keys(config('locale.languages')) as $lang)
-                                <li style="padding-top: 5px !important; "><a  href="{!! route('lang.swap', $lang) !!}">
-                                        <img @if ($lang !== App::getLocale()) style="opacity: 0.5" @endif src="{{ asset('img') .'/'.$lang . '.png' }}" alt="">
+                                <li style="padding-top: 9px !important; "><a  href="{!! route('lang.swap', $lang) !!}">
+                                        <img @if ($lang !== App::getLocale()) style="opacity: 0.7" @endif src="{{ asset('img') .'/'.$lang . '.png' }}" width="30" alt="">
                                     </a>
                                 </li>
                             @endforeach
