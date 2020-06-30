@@ -21,7 +21,7 @@
                             instrumentos que se adecuen mejor a tus necesidades.</li>
                       </ul>
                     </div> -->
-                    <a href="#" class="dark-button button-md mt-25">{!!trans('messages.info-box-contact')!!}</a>
+                    <a href="{{url('contact')}}" class="dark-button button-md mt-25">{!!trans('messages.info-box-contact')!!}</a>
                 </div>
             </div>
             <div class="col-md-6 col-sm-6 col-12">

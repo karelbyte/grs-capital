@@ -53,7 +53,7 @@
                         </div>
                     </div>
                     <div class="animated fadeInUp mt-30">
-                        <a href="#contact" class="dark-button button-md">{!!trans('messages.parallax-contact')!!}</a>
+                        <a href="{{url('contact')}}" class="dark-button button-md">{!!trans('messages.parallax-contact')!!}</a>
                     </div>
                 </div>
             </div>

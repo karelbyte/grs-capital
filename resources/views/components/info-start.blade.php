@@ -19,7 +19,7 @@
                     </p>
                 </div>
                 <div class="mt-25">
-                    <a href="#" class="primary-button button-md">{!!trans('messages.info-start-contact')!!}</a>
+                    <a href="{{url('contact')}}" class="primary-button button-md">{!!trans('messages.info-start-contact')!!}</a>
                 </div>
             </div>
             <div class="col-md-7 col-sm-6 col-12">
