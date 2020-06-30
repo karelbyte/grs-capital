@@ -37,7 +37,6 @@
                         </div>
                     @endif
                 </ul>
-
             </div>
         </div>
     </div>
