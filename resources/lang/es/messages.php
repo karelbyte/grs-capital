@@ -87,4 +87,14 @@ return [
     'page-contact-info-address' => 'Dirección',
     'page-contact-info-hours' => 'Horario',
     'page-contact-info-days' => 'Lun-Sab',
+
+    'footer-caption' => 'GRS Capital SA de CV y GRS Sociedad de Inversión ®',
+    'footer-content' => 'Fondo de Inversión y Marca registrada de Grupo RSantos SA de CV, empresa Mexicana dedicada a la gestión de patrimonios, buscando excelentes oportunidades de inversión,
+                        ya sea en Bienes Raíces, en el Sistema Financiero o el Mercado de Divisas.',
+    'footer-link-home' => 'Inicio',
+    'footer-link-l1' => 'Estrategias',
+    'footer-link-l2' => 'Politicas de privacidad',
+    'footer-link-l3' => 'Aviso legal',
+    'footer-link-l4' => 'Condiciones de uso',
+    'footer-bar-caption' => 'GRS Capital</span> 2020. Todos los derechos reservados.',
 ];

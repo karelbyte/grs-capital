@@ -91,4 +91,16 @@ return [
     'page-contact-info-address' => 'Our Location',
     'page-contact-info-hours' => 'Working Hours',
     'page-contact-info-days' => 'Mon-Sat',
+
+
+    // FOOTER
+    'footer-caption' => 'GRS Capital SA de CV y GRS Investment Company ®',
+    'footer-content' => 'Investment Fund and Registered Trademark of Grupo RSantos SA de CV, a Mexican company dedicated to wealth management, seeking excellent investment opportunities,
+                         either in Real Estate, in the Financial System or the Foreign Exchange Market.',
+    'footer-link-home' => 'Home',
+    'footer-link-l1' => 'Strategies',
+    'footer-link-l2' => 'Privacy policies',
+    'footer-link-l3' => 'Legal warning',
+    'footer-link-l4' => 'Terms of use',
+    'footer-bar-caption' => 'GRS Capital </span> 2020. All rights reserved.',
 ];

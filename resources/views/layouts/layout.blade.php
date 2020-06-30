@@ -25,56 +25,11 @@
     </div>
 </div>
 @yield('content')
-
 <!-- Footer START -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <!-- Column 1 Start -->
-            <div class="col-md-6 col-sm-6 col-12">
-                <h5 style="color:navajowhite;">GRS Capital SA de CV y GRS Sociedad de Inversión ®</h5>
-                <div class="mt-25">
-                    <p class="mt-25">Fondo de Inversión y Marca registrada de Grupo RSantos SA de CV, empresa Mexicana dedicada a la gestión de patrimonios, buscando excelentes oportunidades de inversión,
-                        ya sea en Bienes Raíces, en el Sistema Financiero o el Mercado de Divisas.</p>
-                    <div class="footer-social-icons mt-25">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- Column 1 End -->
-            <!-- Column 2 Start -->
-            <div class="col-md-6 col-sm-6 col-12">
-                <ul class="footer-list">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nuestras estrategias</a></li>
-                    <li><a href="#">Politicas de privacidad</a></li>
-                    <li><a href="#">Aviso legal</a></li>
-                    <li><a href="#">Condiciones de uso</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Footer Bar Start -->
-        <div class="footer-bar">
-            <p><span class="primary-color">GRS Capital</span> © 2020. All Rights Reserved.</p>
-        </div>
-        <!-- Footer Bar End -->
-    </div>
-</footer>
-<!-- Footer END -->
-
-
+@component('components.footer')@endcomponent
 <!-- Scroll to top button Start -->
 <a href="#" class="scroll-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 <!-- Scroll to top button End -->
-
-
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <script src="{{asset('js/popper.min.js')}}"></script>
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
