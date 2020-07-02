@@ -4,7 +4,7 @@
         <div class="swiper-slide">
             <div class="container">
                 <div class="slider-content left-holder">
-                    <h2 class="animated fadeInDown" style="color:rgb( 66, 64,58)">
+                    <h2 class="animated " style="color:rgb( 66, 64,58)">
                         {!!trans('messages.parallax-head-1')!!}
                     </h2>
                     <div class="row">
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                     <div class="animated fadeInUp mt-30">
-                        <a href="#contact" class="dark-button button-md">{!!trans('messages.parallax-contact')!!}</a>
+                        <a href="{{url('contact')}}" class="dark-button button-md">{!!trans('messages.parallax-contact')!!}</a>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
         <div class="swiper-slide">
             <div class="container">
                 <div class="slider-content left-holder">
-                    <h2 class="animated fadeInDown" style="color:rgb( 66, 64,58)">
+                    <h2 class="animated " style="color:rgb( 66, 64,58)">
                         {!!trans('messages.parallax-head-2')!!}
                     </h2>
                     <div class="row">
@@ -34,8 +34,8 @@
                                 {!!trans('messages.parallax-content-2')!!} </p>
                         </div>
                     </div>
-                    <div class="animated fadeInUp mt-30">
-                        <a href="#contact" class="dark-button button-md">{!!trans('messages.parallax-contact')!!}</a>
+                    <div class="animated  mt-30">
+                        <a href="{{url('contact')}}" class="dark-button button-md">{!!trans('messages.parallax-contact')!!}</a>
                     </div>
                 </div>
             </div>

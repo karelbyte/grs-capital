@@ -11,7 +11,7 @@
                     <ul>
                         <li><i class="fa fa-phone"></i>(+755) 557 0669
                         <li>
-                        <li><i class="fa fa-envelope"></i>contacto@grscapital.com.mx
+                        <li><i class="fa fa-envelope"></i><a  style="color:wheat" href="mailto:contacto@grscapital.com.mx">contacto@grscapital.com.mx</a>
                         <li>
                     </ul>
                 </div>

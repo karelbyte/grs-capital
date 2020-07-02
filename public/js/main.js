@@ -412,7 +412,7 @@ $(document).ready(function () {
   -----------------------*/
   if ($("#swiper-parallax").length !== 0) {
     var swiper = new Swiper('.swiper-container', {
-      parallax: true,
+     parallax: true,
       /*navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -429,7 +429,8 @@ $(document).ready(function () {
       loop: true,
       simulateTouch: true,
       autoplay: true,
-      speed: 6000,
+      delay: 5000,
+      speed: 8000,
     });
   }
 
