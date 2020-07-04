@@ -416,7 +416,7 @@ $(document).ready(function () {
           parallax: true,
           loop:true,
           autoplay: {
-              delay: 15000,
+              delay: 20000,
               disableOnInteraction: false,
           },
           pagination: {
