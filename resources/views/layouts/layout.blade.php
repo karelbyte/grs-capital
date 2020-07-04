@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/icomoon.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('css/swiper.min.css')}}">
+    <!--<link rel="stylesheet" type="text/css" href="{{asset('css/swiper.min.css')}}"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset('css/slider.css')}}">
     <link rel="stylesheet" href="{{asset('css/animate.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/switcher.css')}}">
@@ -42,7 +43,8 @@
 <script src="{{asset('js/waypoints.min.js')}}"></script>
 <script src="{{asset('js/tabs.min.js')}}"></script>
 <script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
-<script src="{{asset('js/swiper.min.js')}}"></script>
+<!--<script src="{{asset('js/swiper.min.js')}}"></script> -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="{{asset('js/modernizr.js')}}"></script>
 <script src="{{asset('js/switcher.js')}}"></script>
 <script src="{{asset('js/map.js')}}"></script>

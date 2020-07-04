@@ -18,8 +18,7 @@ return [
          you do not have to search for <b> "wealth" </b> as an abstract concept, your search must be oriented towards achieving
           <b> financial independence. </b>',
     'parallax-head-3' => 'Money never sleeps!',
-    'parallax-content-3' => '266/5000
-Financial independence is achieved by learning to invest for passive income (income for which you do not
+    'parallax-content-3' => 'Financial independence is achieved by learning to invest for passive income (income for which you do not
      you have to work, that is, money generating money), and continue with this activity until they exceed your usual expenses.',
     'parallax-contact' => 'Contact us',
     // INFO STAR

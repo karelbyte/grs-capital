@@ -411,27 +411,23 @@ $(document).ready(function () {
   Parallax Slider
   -----------------------*/
   if ($("#swiper-parallax").length !== 0) {
-    var swiper = new Swiper('.swiper-container', {
-     parallax: true,
-      /*navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        dynamicBullets: true,
-      },
-      pagination: '.swiper-pagination', */
-      paginationClickable: false,
-     // nextButton: '.swiper-button-next',
-     // prevButton: '.swiper-button-prev',
-      spaceBetween: 0,
-      loop: true,
-      simulateTouch: true,
-      autoplay: true,
-      delay: 5000,
-      speed: 8000,
-    });
+      var swiper = new Swiper('.swiper-container', {
+          speed: 1000,
+          parallax: true,
+          loop:true,
+          autoplay: {
+              delay: 10000,
+              disableOnInteraction: false,
+          },
+          pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+          },
+          navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+          },
+      });
   }
 
   /*---------------------
