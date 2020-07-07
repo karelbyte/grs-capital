@@ -2,7 +2,10 @@
 return [
     'top_bar_msj' => 'Welcome to your portfolio manager!',
     'nav-home' => 'HOME',
-    'nav-services' => 'SERVICES',
+    'nav-services' => 'INVESTMENT FUND',
+    'nav-services-features' => 'Features',
+    'nav-services-administration' => 'Administration',
+    'nav-services-results' => 'Results',
     'nav-projects' => 'PROJECTS',
     'nav-about' => 'ABOUT',
     'nav-contact' => 'CONTACT',

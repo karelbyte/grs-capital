@@ -3,7 +3,10 @@ return [
     'top_bar_msj' => 'Bienvenido a su adminstrador de capital!',
 
     'nav-home' => 'INICIO',
-    'nav-services' => 'SERVICIOS',
+    'nav-services' => 'FONDO DE INVERSION',
+    'nav-services-features' => 'Caracteristicas',
+    'nav-services-administration' => 'Adminstración',
+    'nav-services-results' => 'Resultados',
     'nav-projects' => 'PROYECTOS',
     'nav-about' => 'NOSOTROS',
     'nav-contact' => 'CONTACTO',

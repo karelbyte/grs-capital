@@ -16,99 +16,58 @@
 <div class="section-block">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 col-sm-7 col-12">
-                <div class="section-heading mt-15">
-                    <h4 style="color: navajowhite">{!!trans('messages.page-contact-msj-caption')!!}</h4>
-                    <div class="section-heading-line-left"></div>
-                </div>
-                <div class="contact-form-box mt-30">
-                    <!-- Form START -->
-                    <form class="contact-form">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" name="subject" placeholder="{!!trans('messages.page-contact-msj-subject')!!}">
-                            </div>
-
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <input type="text" name="name" placeholder="{!!trans('messages.page-contact-msj-name')!!}">
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-12">
-                                <input type="email" name="email" placeholder="{!!trans('messages.page-contact-msj-email')!!}">
-                            </div>
-
-                            <div class="col-md-12">
-                                <textarea name="message" placeholder="{!!trans('messages.page-contact-msj-message')!!}"></textarea>
-                            </div>
-                            <div class="col-md-4 mb-30">
-                                <button class="primary-button button-md" type="submit">{!!trans('messages.page-contact-msj-emit')!!}</button>
-                            </div>
-                        </div>
-                    </form>
-                    <!-- Form END -->
-                </div>
+            <div class="col-md-6 col-sm-6 col-12">
+                <img src="{{asset('img/valuebank.jpg')}}" class="rounded-border shadow-primary" alt="img">
             </div>
-
-            <div class="col-md-5 col-sm-5 col-12">
-                <div class="contact-info-box">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-12">
-                            <div class="contact-info-section">
-                                <div class="row">
-                                    <div class="col-md-2 col-sm-2 col-4 center-holder">
-                                        <i class="fa fa-phone"></i>
-                                    </div>
-                                    <div class="col-md-10 col-sm-10 col-8">
-                                        <h4 style="color: navajowhite">{!!trans('messages.page-contact-info-call')!!}</h4>
-                                        <p>(+755) 557 0669</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 col-sm-12 col-12">
-                            <div class="contact-info-section">
-                                <div class="row">
-                                    <div class="col-md-2 col-sm-2 col-4 center-holder">
-                                        <i class="fa fa-envelope-open"></i>
-                                    </div>
-                                    <div class="col-md-10 col-sm-10 col-8">
-                                        <h4 style="color: navajowhite">{!!trans('messages.page-contact-info-message')!!}</h4>
-                                        <p>contacto@grscapital.com.mx</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 col-sm-12 col-12">
-                            <div class="contact-info-section">
-                                <div class="row">
-                                    <div class="col-md-2 col-sm-2 col-4 center-holder">
-                                        <i class="fa fa-globe"></i>
-                                    </div>
-                                    <div class="col-md-10 col-sm-10 col-8">
-                                        <h4 style="color: navajowhite">{!!trans('messages.page-contact-info-address')!!}</h4>
-                                        <p>Bamboo #44, Los Hujes</p>
-                                        <p>Zihuatenejo Gro, CP: 40880</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12 col-sm-12 col-12">
-                            <div class="contact-info-section">
-                                <div class="row">
-                                    <div class="col-md-2 col-sm-2 col-4 center-holder">
-                                        <i class="fa fa-clock-o"></i>
-                                    </div>
-                                    <div class="col-md-10 col-sm-10 col-8">
-                                        <h4 style="color: navajowhite">{!!trans('messages.page-contact-info-hours')!!}</h4>
-                                        <p>{!!trans('messages.page-contact-info-days')!!} 09:00 - 19:00</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="col-md-6 col-sm-6 col-12">
+                <div class="pl-30-md">
+                    <div class="section-heading">
+                        <h4 style="color:navajowhite">Sobre nosotros</h4>
+                    </div>
+                    <div class="section-heading-line-left"></div>
+                    <div class="text-content-big mt-20">
+                        <p style="color: navajowhite; text-align: justify">GRS Capital es una empresa con más de 10 años de experiencia en el sistema financiero. Fundada en el año 2009, inicio operaciones como una SOFOM (Sociedad Financiera de Objeto Múltiple), cuyo objeto principal era, entre otros:</p>
+                    </div>
+                    <div class="row mt-20">
+                        <div class="col-md-12">
+                            <ul class="primary-list">
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">La captación de recursos provenientes de instrumentos calificados, así como de entidades financieras del
+                                    país y del extranjero.</span></li>
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Otorgar financiamiento a personas físicas y morales en su calidad de micro pequeñas y medianas empresas.</span></li>
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Realizar operaciones de Arrendamiento y Factoraje financieros.</span></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row mt-50">
+            <div class="col-md-6 col-sm-6 col-12">
+                <div class="pl-30-md">
+                    <div class="section-heading-line-left"></div>
+                    <div class="text-content-big mt-20">
+                        <p style="color: #fde4bd; text-align: justify">En el año 2014 el Estado Mexicano aumento la regulación legal normativa y prudencial para las SOFOM, lo cual presento desventajas legales, económicas y corporativas para este tipo de sociedades, llevando a más del 80% de las mismas a cerrar sus operaciones. En este contexto GRS Capital cambio su Régimen y Objeto Sociales, migrando a una Sociedad Anónima de Capital Variable (SA de CV) y
+                            además cambio su objeto social, teniendo a partir de esa fecha como algunas de sus actividades principales</p>
+                    </div>
+                    <div class="row mt-20">
+                        <div class="col-md-12">
+                            <ul class="primary-list">
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">La captación de recursos provenientes de instrumentos calificados, así como de entidades financieras del país y del extranjero.</span></li>
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Otorgar financiamiento a personas físicas y morales en su calidad de micro pequeñas y medianas empresas.</span></li>
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Realizar operaciones de Arrendamiento y Factoraje financieros.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-content-big mt-20">
+                        <p style="color: #fde4bd; text-align: justify">Actualmente, entre otras actividades, GRS Capital está funcionando como Operadora de un Fondo de Inversión mixto del cual se puede encontrar más información en esta página bajo el título ‘Fondo de Inversión’ en el encabezado inicial.</p>
+                    </div>
+                    <div class="mt-35">
+                        <a href="#" class="primary-button button-sm mb-15-xs">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12">
+                <img src="{{asset('img/factoring.jpg')}}" class="rounded-border" alt="img">
             </div>
         </div>
     </div>
