@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/default.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/styles-4.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    @yield('css')
 </head>
 <body>
 <div id="preloader">
@@ -43,8 +44,8 @@
 <script src="{{asset('js/waypoints.min.js')}}"></script>
 <script src="{{asset('js/tabs.min.js')}}"></script>
 <script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
-<!--<script src="{{asset('js/swiper.min.js')}}"></script> -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="{{asset('js/swiper.min.js')}}"></script>
+<!--<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 <script src="{{asset('js/modernizr.js')}}"></script>
 <script src="{{asset('js/switcher.js')}}"></script>
 <script src="{{asset('js/map.js')}}"></script>
