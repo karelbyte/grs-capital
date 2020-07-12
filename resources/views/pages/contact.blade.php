@@ -9,7 +9,7 @@
     <h1 style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-caption')!!}</h1>
     <ul>
       <li><a href="/" style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-breadcrumbs-1')!!}</a></li>
-      <li><a href="/contact" style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-breadcrumbs-2')!!}</a></li>
+      <li><a href="#" style="color:rgb( 66, 64,58)">{!!trans('messages.page-contact-breadcrumbs-2')!!}</a></li>
     </ul>
   </div>
 </div>
@@ -25,9 +25,6 @@
                     <!-- Form START -->
                     <form class="contact-form">
                         <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" name="subject" placeholder="{!!trans('messages.page-contact-msj-subject')!!}">
-                            </div>
 
                             <div class="col-md-6 col-sm-6 col-12">
                                 <input type="text" name="name" placeholder="{!!trans('messages.page-contact-msj-name')!!}">

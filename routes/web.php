@@ -39,4 +39,9 @@ Route::get('/terms', function () {
     return view('pages.terms');
 });
 
+Route::get('/fund', function () {
+    return view('pages.fund');
+});
+
+
 Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');

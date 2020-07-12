@@ -1,6 +1,6 @@
 <?php
 return [
-    'top_bar_msj' => 'Bienvenido a su adminstrador de capital!',
+    'top_bar_msj' => 'Bienvenidos!',
 
     'nav-home' => 'INICIO',
     'nav-services' => 'FONDO DE INVERSION',
@@ -89,14 +89,14 @@ return [
     'page-contact-info-message' => 'Mensajes',
     'page-contact-info-address' => 'Dirección',
     'page-contact-info-hours' => 'Horario',
-    'page-contact-info-days' => 'Lun-Sab',
+    'page-contact-info-days' => 'Lun-Vie',
 
 
     // Page about
     'page-about-caption' => 'Nosotros',
     'page-about-breadcrumbs-1' => 'Inicio',
     'page-about-breadcrumbs-2' => 'Nosotros',
-    'page-about-msj-caption' => 'Tell us about your interests',
+    'page-about-msj-caption' => 'RS Capital is a company with more than 10 years of experience in the financial system. Founded in 2009, it started operations as a SOFOM (Multiple Purpose Financial Company), whose main purpose was, among others:',
     'page-about-msj-subject' => 'Subject',
     'page-about-msj-name' => 'Name',
     'page-about-msj-email' => 'Email',

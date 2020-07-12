@@ -9,13 +9,8 @@
         <div class="nav-menus-wrapper">
             <ul class="nav-menu align-to-right">
                 <li><a href="/">{!!trans('messages.nav-home')!!}</a></li>
-                <li><a href="#">{!!trans('messages.nav-services')!!}</a>
-                    <ul class="nav-dropdown">
-                        <li><a href="services.html">{!!trans('messages.nav-services-features')!!}</a></li>
-                        <li><a href="services-2.html">{!!trans('messages.nav-services-administration')!!}</a></li>
-                        <li><a href="services-3.html">{!!trans('messages.nav-services-results')!!}</a></li>
-                    </ul>
-                </li>
+                <li><a href="{{url('fund')}}">{!!trans('messages.nav-services')!!}</a></li>
+                <li><a href="{{url('fund-features-1')}}">{!!trans('messages.nav-services')!!}</a></li>
                 <!--<li><a href="#">{!!trans('messages.nav-projects')!!}</a></li> -->
                 <li><a href="{{url('about')}}">{!!trans('messages.nav-about')!!}</a></li>
                 <li><a href="{{url('contact')}}">{!!trans('messages.nav-contact')!!}</a></li>

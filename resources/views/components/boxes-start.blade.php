@@ -31,7 +31,7 @@
                         <div class="feature-box">
                             <i class="icon-diamond" style="color:black;"></i>
                             <h4>{!!trans('messages.info-box-item1-head')!!}</h4>
-                            <p style="color:rgb(73, 52, 24);">{!!trans('messages.info-box-item1-caption')!!}</p>
+                            <p style="color:rgb(73, 52, 24); text-align: justify ">{!!trans('messages.info-box-item1-caption')!!}</p>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@
                         <div class="feature-box">
                             <i class="icon-diamond2" style="color:black;"></i>
                             <h4>{!!trans('messages.info-box-item2-head')!!}</h4>
-                            <p style="color:rgb(73, 52, 24);">{!!trans('messages.info-box-item2-caption')!!}</p>
+                            <p style="color:rgb(73, 52, 24); text-align: justify ">{!!trans('messages.info-box-item2-caption')!!}</p>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@
                         <div class="feature-box">
                             <i class="icon-coin" style="color:black;"></i>
                             <h4>{!!trans('messages.info-box-item3-head')!!}</h4>
-                            <p style="color:rgb(73, 52, 24);">{!!trans('messages.info-box-item3-caption')!!}</p>
+                            <p style="color:rgb(73, 52, 24); text-align: justify ">{!!trans('messages.info-box-item3-caption')!!}</p>
                         </div>
                     </div>
 
@@ -55,7 +55,7 @@
                         <div class="feature-box">
                             <i class="icon-piggy-bank3" style="color:rgba(40,40,40,0.85);"></i>
                             <h4>{!!trans('messages.info-box-item4-head')!!}</h4>
-                            <p style="color:rgb(73, 52, 24);">{!!trans('messages.info-box-item4-caption')!!}</p>
+                            <p style="color:rgb(73, 52, 24); text-align: justify ">{!!trans('messages.info-box-item4-caption')!!}</p>
                         </div>
                     </div>
                 </div>

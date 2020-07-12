@@ -80,6 +80,11 @@ TABLE OF CONTENT
     background-color: rgb(73, 52, 24);
 }
 
+.section-block-fund {
+    padding: 90px 0px 90px 0px;
+    background-color: rgb(43, 32, 17);
+}
+
 .section-block-grey {
     padding: 90px 0px 90px 0px;
     background-color: #f9f9f9;
@@ -7949,6 +7954,24 @@ Grid Classic Style
     -webkit-transition-duration: .5s;
     transition-duration: .5s;
 }
+.contact-info-section-fix {
+    border-bottom: 1px solid rgba(236, 236, 236, 0.13);
+    padding: 25px 0px;
+    margin-bottom: 0px;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.contact-info-section-fix .fund i {
+    width: 60px;
+    height: 60px;
+    padding-top: 17px;
+    border-radius: 50%;
+    background: rgb(228,147,37);
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+}
 
 .contact-info-section i {
     width: 60px;
@@ -9464,3 +9487,7 @@ Styles 4
 }
 
 .grecaptcha-badge { visibility: hidden; }
+
+.fund-back {
+    background: rgb(41, 33, 19);
+}

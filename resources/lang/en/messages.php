@@ -1,6 +1,6 @@
 <?php
 return [
-    'top_bar_msj' => 'Welcome to your portfolio manager!',
+    'top_bar_msj' => 'Welcome!',
     'nav-home' => 'HOME',
     'nav-services' => 'INVESTMENT FUND',
     'nav-services-features' => 'Features',
@@ -55,6 +55,7 @@ return [
     'info-box-item4-caption' => 'You do not tolerate risk, but still do not want your money to depreciate and seek to expire at least
      inflation without putting your money at risk.',
 
+
     // FEATURES
     'features-caption-1' => 'Do the right thing at the right time!',
     'features-caption-2' => 'Every serious investment portfolio must be structured taking into account three plans.',
@@ -93,13 +94,13 @@ return [
     'page-contact-info-message' => 'Message',
     'page-contact-info-address' => 'Our Location',
     'page-contact-info-hours' => 'Working Hours',
-    'page-contact-info-days' => 'Mon-Sat',
+    'page-contact-info-days' => 'Mon-Fri',
 
     // Page about
     'page-about-caption' => 'About',
     'page-about-breadcrumbs-1' => 'Home',
     'page-about-breadcrumbs-2' => 'About',
-    'page-about-msj-caption' => 'Tell us about your interests',
+    'page-about-msj-caption' => 'GRS Capital is a company with more than 10 years of experience in the financial system. Founded in 2009, it started operations as a SOFOM (Multiple Purpose Financial Company), whose main purpose was, among others:',
     'page-about-msj-subject' => 'Subject',
     'page-about-msj-name' => 'Name',
     'page-about-msj-email' => 'Email',
