@@ -85,6 +85,18 @@ TABLE OF CONTENT
     background-color: rgb(43, 32, 17);
 }
 
+
+.section-block-fund-2 {
+    padding: 90px 0px 90px 0px;
+    background-color: rgb(73, 52, 24);
+}
+
+.section-block-res {
+    padding: 90px 0px 90px 0px;
+    background-color: #2C2C2D;
+}
+
+
 .section-block-fund-chart {
     padding: 90px 0px 90px 0px;
     background-color: #2C2C2D;
@@ -8176,8 +8188,8 @@ Styles 4
     color: rgb(228,147,37);
 }
 
-.default-tabs .tab-menu .active-tab a, .default-tabs .active-tab a i {
-    color: rgb(228,147,37) !important;
+.active-tab  {
+    color: rgb(207, 150, 50) !important;
 }
 
 

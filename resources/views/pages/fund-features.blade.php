@@ -24,25 +24,18 @@
         </div>
     </footer>
     <!-- Tabs (Hortizonal Center) START -->
-    <div class="section-block">
+    <div class="section-block" id="features">
         <div class="container">
-            <!-- Tabs Start -->
             <div class="default-tabs">
                 <div class='tabs tabs_animate mt-50'>
                     <ul class="tab-menu center-holder">
-                        <li><a href="#tab-s-1">CARACTERISTICAS DEL FONDO</a></li>
-                        <li><a href="#tab-s-2">SOBRE EL ADMINISTRADOR</a></li>
-                        <li><a href="#tab-s-3">RESULTADOS DE FONDO</a></li>
+                        <li ><a @if ($tap == 'features') class="active-tab" @endif href="#fea"> @if ($tap == 'features') <i class="fa fa-eye"></i> @endif CARACTERISTICAS DEL FONDO</a></li>
+                        <li><a @if ($tap == 'admin') class="active-tab" @endif href="{{route('admin').'#admin'}}"> @if ($tap == 'admin') <i class="fa fa-eye"></i> @endif SOBRE EL ADMINISTRADOR</a></li>
+                        <li><a @if ($tap == 'results') class="active-tab" @endif href="{{ route('results').'#results' }}"> @if ($tap == 'results') <i class="fa fa-eye"></i> @endif RESULTADOS DE FONDO</a></li>
                     </ul>
-
-                    <div id='tab-s-1' class="clearfix tab-body">
+                    <div id="fea" class="clearfix tab-body">
                         <div class="section-block">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12 col-sm-12 col-12 text-center">
-                                        <h2 style="color:#e09d22">CARACTERISTICAS DEL FONDO</h2>
-                                    </div>
-                                </div>
                                 <div class="row">
                                     <div class="col-md-12 col-sm-12 col-12">
                                         <div class="contact-info-box">
@@ -117,66 +110,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id='tab-s-2' class="clearfix tab-body">
-                        <div class="section-block-fund">
-                            <div class="container">
-                                <div class="team-single">
-                                    <div class="row mb-5" style="border-bottom: 1px solid rgba(38,35,35,0.28)">
-                                        <div class="col-md-12 col-sm-12 col-12 text-center">
-                                            <h2 style="color:#e3ae50">SOBRE EL ADMINISTRADOR</h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4 col-sm-4 col-xs-12 col-12">
-                                            <div class="team-single-img">
-                                                <img src="{{asset('img/admin.jpg')}}" alt="img">
-                                            </div>
-                                        </div>
-                                        <!-- Personal Info START -->
-                                        <div class="col-md-8 col-sm-8 col-xs-12 col-12">
-                                            <div class="team-single-text">
-                                                <!--   <span>Agency Director</span> -->
-                                                <h3 style="color: whitesmoke; margin-top: 10px;">Alcides Diaz Santos</h3>
-                                                <ul class="team-single-info">
-                                                    <li><strong>Telf:</strong><span>(+755) 557 0669</span></li>
-                                                    <li><strong>email</strong><span>admin@grscapital.com</span></li>
-                                                </ul>
-                                                <ul class="primary-list mt-40">
-                                                    <li style="text-align: justify" ><i class="fa fa-check"></i><span style="color: #caab88">El administrador del fondo es Ingeniero en Software y cuenta con Maestría en administración por el Instituto Superior Politécnico de la Ciudad de la Habana.</span></li>
-                                                    <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">Esta certificado como Master Trader por el Market Trader Institute de Orlando Florida y posee más de 10 años de experiencia como operador master del mercado FOREX</span></li>
-                                                    <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">También está titulado por el Rich Dad Coaching de Robert Kiyosaki, para la creación y administración de negocios</span></li>
-                                                    <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">Desde el año 2014 es Trader (Money Manager) en el Fondo de Inversión Apiary Investment Fund® con base en Utah, Estados Unidos</span></li>
-                                                    <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">Además está titulado por el Tecnológico de Monterrey para la administración de Empresas de la Construcción, contando con experiencia en construcción ecológica y sustentable, así como en desarrollo de viviendas de interés medio/alto</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id='tab-s-3' class="clearfix tab-body">
-                        <div class="section-block-fund-chart">
-                            <div class="container">
-                                <div class="team-single">
-                                    <div class="row mb-5" style="border-bottom: 1px solid rgba(38,35,35,0.28)">
-                                        <div class="col-md-12 col-sm-12 col-12 text-center">
-                                            <h2 style="color:#e3ae50">RESULTADOS DE FONDO</h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 col-sm-12 col-12 text-center">
-                                            <figure class="highcharts-figure">
-                                                <div id="chart"></div>
-                                            </figure>
                                         </div>
                                     </div>
                                 </div>
