@@ -1,4 +1,3 @@
-
 @extends('layouts.layout')
 @section('content')
     <!-- Top-Bar START -->
@@ -148,5 +147,101 @@
             </div>
         </div>
     </div>
-    <!-- Team Member Section END -->
+
+    <div class="section-block-fund-chart">
+        <div class="container">
+            <div class="team-single">
+                <div class="row mb-5" style="border-bottom: 1px solid rgba(38,35,35,0.28)">
+                    <div class="col-md-12 col-sm-12 col-12 text-center">
+                        <h2 style="color:#e3ae50">RESULTADOS DE FONDO</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12 text-center">
+                        <figure class="highcharts-figure">
+                            <div id="chart"></div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+@section('css')
+    <style>
+        .highcharts-figure, .highcharts-data-table table {
+            min-width: 360px;
+            max-width: 800px;
+            margin: 1em auto;
+        }
+
+        .highcharts-data-table table {
+            font-family: Verdana, sans-serif;
+            border-collapse: collapse;
+            border: 1px solid #EBEBEB;
+            margin: 10px auto;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+        .highcharts-data-table caption {
+            padding: 1em 0;
+            font-size: 1.2em;
+            color: #555;
+        }
+        .highcharts-data-table th {
+            font-weight: 600;
+            padding: 0.5em;
+        }
+        .highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+            padding: 0.5em;
+        }
+        .highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+            background: #f8f8f8;
+        }
+        .highcharts-data-table tr:hover {
+            background: #f1f7ff;
+        }
+    </style>
+@endsection
+@section('js')
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/themes/dark-unica.js"></script>
+    <script>
+        Highcharts.chart('chart', {
+            chart: {
+                type: 'spline'
+            },
+            title: {
+                text: 'Gráfica ganacias fondo'
+            },
+            subtitle: {
+                text: '-'
+            },
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            },
+            yAxis: {
+                title: {
+                    text: 'Ganacias %'
+                }
+            },
+            plotOptions: {
+                line: {
+                    dataLabels: {
+                        enabled: true
+                    },
+                    enableMouseTracking: false
+                }
+            },
+            series: [{
+                name: 'Anual',
+                data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+            }, {
+                name: 'Mensual',
+                data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+            }]
+        });
+    </script>
 @endsection

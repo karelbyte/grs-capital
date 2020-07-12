@@ -85,6 +85,11 @@ TABLE OF CONTENT
     background-color: rgb(43, 32, 17);
 }
 
+.section-block-fund-chart {
+    padding: 90px 0px 90px 0px;
+    background-color: #2C2C2D;
+}
+
 .section-block-grey {
     padding: 90px 0px 90px 0px;
     background-color: #f9f9f9;
@@ -5372,7 +5377,7 @@ Style 5
 }
 
 .team-single-text {
-    padding: 5px 50px 15px 15px;
+    padding: 5px 5px 15px 15px;
 }
 
 .team-single-text span {
@@ -8219,7 +8224,7 @@ Styles 4
 .tab-body {
     display: block;
     position: relative;
-    padding: 25px;
+   /* padding: 25px;*/
     background: #f7f7f7 !important;
 }
 

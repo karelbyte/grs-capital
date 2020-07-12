@@ -50,6 +50,7 @@
 <script src="{{asset('js/switcher.js')}}"></script>
 <script src="{{asset('js/map.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
+@yield('js')
 </body>
 </html>
 

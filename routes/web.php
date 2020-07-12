@@ -43,5 +43,9 @@ Route::get('/fund', function () {
     return view('pages.fund');
 });
 
+Route::get('/fund-features-1', function () {
+    return view('pages.fund-features');
+});
+
 
 Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');
