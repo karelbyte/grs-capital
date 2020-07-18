@@ -101,16 +101,16 @@ return [
     'page-about-breadcrumbs-1' => 'Home',
     'page-about-breadcrumbs-2' => 'About',
     'page-about-msj-caption' => 'GRS Capital is a company with more than 10 years of experience in the financial system. Founded in 2009, it started operations as a SOFOM (Multiple Purpose Financial Company), whose main purpose was, among others:',
-    'page-about-msj-subject' => 'Subject',
-    'page-about-msj-name' => 'Name',
-    'page-about-msj-email' => 'Email',
-    'page-about-msj-message' => 'Message',
-    'page-about-msj-emit' => 'Send Message',
+    'page-about-msj-terms-1' => '<li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Fundraising from qualified instruments, as well as from financial institutions in the
+                                     country and abroad. </span> </li>
+                                 <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Grant financing to individuals and companies as micro small and medium-sized companies. </span> </li>
+                                 <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Perform Financial Leasing and Factoring operations. </span> </li>',
+    'page-about-msj-name' => 'In 2014, the Mexican State increased the regulatory and prudential legal regulations for SOFOMs, which presented legal, economic and corporate disadvantages for this type of companies, leading to more than 80% of them closing their operations. In this context, GRS Capital changed its Regime and Company Purpose, migrating to a Variable Capital Company (SA de CV) and also changed its company purpose, having as of that date some of its main activities.',
+    'page-about-msj-message' => '<li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Act as an investor in the national and international financial system, in fixed income, variable income, foreign exchange (FOREX) and metals markets, among others.</span> </li>
+                                 <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> The purchase, sale, construction, development, administration and operation of all types of movable and immovable property in general, such as houses, buildings, apartments, condominiums, hotels, shopping centers, among others. </span > </li>',
+    'page-about-msj-emit' => 'Currently, among other activities, GRS Capital is operating as the Operator of a mixed Investment Fund, of which more information can be found on this page under the heading \'Investment Fund\' in the initial heading.',
     'page-about-info-call' => 'Call Us',
-    'page-about-info-message' => 'Message',
-    'page-about-info-address' => 'Our Location',
-    'page-about-info-hours' => 'Working Hours',
-    'page-about-info-days' => 'Mon-Sat',
+
 
     // PAGE LEGAL
     'page-legal-content' => '<p><h2 style="color:moccasin">LEGAL WARNING</h2></p><p>&nbsp;</p>

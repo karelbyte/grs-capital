@@ -31,10 +31,7 @@
                     <div class="row mt-20">
                         <div class="col-md-12">
                             <ul class="primary-list">
-                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">La captación de recursos provenientes de instrumentos calificados, así como de entidades financieras del
-                                    país y del extranjero.</span></li>
-                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Otorgar financiamiento a personas físicas y morales en su calidad de micro pequeñas y medianas empresas.</span></li>
-                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Realizar operaciones de Arrendamiento y Factoraje financieros.</span></li>
+                                {!!trans('messages.page-about-msj-terms-1')!!}
                             </ul>
                         </div>
                     </div>
@@ -46,23 +43,20 @@
                 <div class="pl-30-md">
                     <div class="section-heading-line-left"></div>
                     <div class="text-content-big mt-20">
-                        <p style="color: #fde4bd; text-align: justify">En el año 2014 el Estado Mexicano aumento la regulación legal normativa y prudencial para las SOFOM, lo cual presento desventajas legales, económicas y corporativas para este tipo de sociedades, llevando a más del 80% de las mismas a cerrar sus operaciones. En este contexto GRS Capital cambio su Régimen y Objeto Sociales, migrando a una Sociedad Anónima de Capital Variable (SA de CV) y
-                            además cambio su objeto social, teniendo a partir de esa fecha como algunas de sus actividades principales</p>
+                        <p style="color: #fde4bd; text-align: justify">{!!trans('messages.page-about-msj-name')!!}</p>
                     </div>
                     <div class="row mt-20">
                         <div class="col-md-12">
                             <ul class="primary-list">
-                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">La captación de recursos provenientes de instrumentos calificados, así como de entidades financieras del país y del extranjero.</span></li>
-                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Otorgar financiamiento a personas físicas y morales en su calidad de micro pequeñas y medianas empresas.</span></li>
-                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Realizar operaciones de Arrendamiento y Factoraje financieros.</span></li>
+                                {!!trans('messages.page-about-msj-message')!!}
                             </ul>
                         </div>
                     </div>
                     <div class="text-content-big mt-20">
-                        <p style="color: #fde4bd; text-align: justify">Actualmente, entre otras actividades, GRS Capital está funcionando como Operadora de un Fondo de Inversión mixto del cual se puede encontrar más información en esta página bajo el título ‘Fondo de Inversión’ en el encabezado inicial.</p>
+                        <p style="color: #fde4bd; text-align: justify">{!!trans('messages.page-about-msj-emit')!!}</p>
                     </div>
                     <div class="mt-35">
-                        <a href="{{url('contact')}}" class="primary-button button-sm mb-15-xs">Contact Us</a>
+                        <a href="{{url('contact')}}" class="primary-button button-sm mb-15-xs">{!!trans('messages.page-about-info-call')!!}</a>
                     </div>
                 </div>
             </div>

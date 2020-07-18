@@ -43,19 +43,4 @@ Route::get('/fund', function () {
     return view('pages.fund');
 });
 
-Route::get('/fund-features-1', function () {
-    $tap = 'features';
-    return view('pages.fund-features', compact('tap'));
-})->name('features');
-
-Route::get('/fund-admin', function () {
-    $tap = 'admin';
-    return view('pages.fund-features-tap-2', compact('tap'));
-})->name('admin');
-
-Route::get('/fund-results', function () {
-    $tap = 'results';
-    return view('pages.fund-features-tap-3', compact('tap'));
-})->name('results');
-
 Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');

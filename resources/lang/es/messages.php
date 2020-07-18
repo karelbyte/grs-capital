@@ -10,7 +10,8 @@ return [
     'nav-projects' => 'PROYECTOS',
     'nav-about' => 'NOSOTROS',
     'nav-contact' => 'CONTACTO',
- // TEXTO DE LOS SLIDES PARALLAX
+
+   // TEXTO DE LOS SLIDES PARALLAX
     'parallax-head-1' => 'Somos el modo inteligente!',
     'parallax-content-1' => 'La práctica y el conocimiento de utilizar el
                                 dinero de modo inteligente, es una de las habilidades menos desarrolladas que poseemos.
@@ -96,17 +97,18 @@ return [
     'page-about-caption' => 'Nosotros',
     'page-about-breadcrumbs-1' => 'Inicio',
     'page-about-breadcrumbs-2' => 'Nosotros',
-    'page-about-msj-caption' => 'RS Capital is a company with more than 10 years of experience in the financial system. Founded in 2009, it started operations as a SOFOM (Multiple Purpose Financial Company), whose main purpose was, among others:',
-    'page-about-msj-subject' => 'Subject',
-    'page-about-msj-name' => 'Name',
-    'page-about-msj-email' => 'Email',
-    'page-about-msj-message' => 'Message',
-    'page-about-msj-emit' => 'Send Message',
-    'page-about-info-call' => 'Call Us',
-    'page-about-info-message' => 'Message',
-    'page-about-info-address' => 'Our Location',
-    'page-about-info-hours' => 'Working Hours',
-    'page-about-info-days' => 'Mon-Sat',
+    'page-about-msj-caption' => 'GRS Capital es una empresa con más de 10 años de experiencia en el sistema financiero. Fundada en el año 2009, inicio operaciones como una SOFOM (Sociedad Financiera de Objeto Múltiple), cuyo objeto principal era, entre otros:',
+    'page-about-msj-terms-1' => '<li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">La captación de recursos provenientes de instrumentos calificados, así como de entidades financieras del
+                                    país y del extranjero.</span></li>
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Otorgar financiamiento a personas físicas y morales en su calidad de micro pequeñas y medianas empresas.</span></li>
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Realizar operaciones de Arrendamiento y Factoraje financieros.</span></li>',
+    'page-about-msj-name' => 'En el año 2014 el Estado Mexicano aumento la regulación legal normativa y prudencial para las SOFOM, lo cual presento desventajas legales, económicas y corporativas para este tipo de sociedades, llevando a más del 80% de las mismas a cerrar sus operaciones. En este contexto GRS Capital cambio su Régimen y Objeto Sociales, migrando
+                           a una Sociedad Anónima de Capital Variable (SA de CV) y además cambio su objeto social, teniendo a partir de esa fecha como algunas de sus actividades principales',
+    'page-about-msj-message' => '<li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">Actuar como inversionista en el Sistema Financiero nacional e internacional, en mercados de renta fija, de renta variable, mercado de divisas (FOREX) y metales entre otros.</span></li>
+                                <li><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow">La compra, venta, construcción, desarrollo, administración y operación de todo tipo de bienes muebles e inmuebles en general, tales como casas, edificios, departamentos, condominios, hoteles, centros comerciales, entre otros.</span></li>',
+    'page-about-msj-emit' => 'Actualmente, entre otras actividades, GRS Capital está funcionando como Operadora de un Fondo de Inversión mixto del cual se puede encontrar más información en esta página bajo el título ‘Fondo de Inversión’ en el encabezado inicial.',
+    'page-about-info-call' => 'Contactanos',
+
 
     // PAGE LEGAL
     'page-legal-content' => '<p><h2 style="color:moccasin">AVISO LEGAL</h2></p><p>&nbsp;</p>
@@ -164,7 +166,7 @@ return [
 
     // PAGE PRIVACI
     'page-privacy-content' => '<p><h2 style="color:moccasin">POLÍTICA DE PRIVACIDAD</h2></p><p>&nbsp;</p>
-                    <p class="text-justify text-white">El presente Política de Privacidad establece los términos en que GRS Capital SA de CV usa y protege la información que es proporcionada
+                    <p class="text-justify text-white">La presente Política de Privacidad establece los términos en que GRS Capital SA de CV usa y protege la información que es proporcionada
                         por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios.
                         Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se
                         empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada
