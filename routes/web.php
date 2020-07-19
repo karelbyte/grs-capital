@@ -39,7 +39,7 @@ Route::get('/terms', function () {
     return view('pages.terms');
 });
 
-Route::get('/fund', function () {
+Route::get('/investment-fund', function () {
     return view('pages.fund');
 });
 

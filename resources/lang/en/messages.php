@@ -49,7 +49,7 @@ return [
     'info-box-item2-caption' => 'It assumes an intermediate risk, being able to have a combination of high risk/return investments with
       some low risk.',
     'info-box-item3-head' => 'Minimal risk.',
-    'info-box-item3-caption' => 'He doesn\'t like to risk his assets, but he understands the need to move money, so he wants to invest it,
+    'info-box-item3-caption' => 'He doesn"t like to risk his assets, but he understands the need to move money, so he wants to invest it,
      but at the lowest possible risk.',
     'info-box-item4-head' => 'Zero Risk.',
     'info-box-item4-caption' => 'You do not tolerate risk, but still do not want your money to depreciate and seek to expire at least
@@ -72,7 +72,7 @@ return [
                              consult your doubts, information about the investments that interest you.',
     'feedback-p2' => 'They are all great reasons, so go ahead!',
     'feedback-p3' => 'Request more information and receive the personalized advice of our advisors without obligation.',
-    'feedback-p4' => 'Don\'t forget to check our Privacy Clause.',
+    'feedback-p4' => 'Don"t forget to check our Privacy Clause.',
     'feedback-send-caption' => 'Send us your information and we will contact you shortly',
     'feedback-send-name' => 'Name and surname',
     'feedback-send-email' => 'Email',
@@ -108,9 +108,60 @@ return [
     'page-about-msj-name' => 'In 2014, the Mexican State increased the regulatory and prudential legal regulations for SOFOMs, which presented legal, economic and corporate disadvantages for this type of companies, leading to more than 80% of them closing their operations. In this context, GRS Capital changed its Regime and Company Purpose, migrating to a Variable Capital Company (SA de CV) and also changed its company purpose, having as of that date some of its main activities.',
     'page-about-msj-message' => '<li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Act as an investor in the national and international financial system, in fixed income, variable income, foreign exchange (FOREX) and metals markets, among others.</span> </li>
                                  <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> The purchase, sale, construction, development, administration and operation of all types of movable and immovable property in general, such as houses, buildings, apartments, condominiums, hotels, shopping centers, among others. </span > </li>',
-    'page-about-msj-emit' => 'Currently, among other activities, GRS Capital is operating as the Operator of a mixed Investment Fund, of which more information can be found on this page under the heading \'Investment Fund\' in the initial heading.',
+    'page-about-msj-emit' => 'Currently, among other activities, GRS Capital is operating as the Operator of a mixed Investment Fund, of which more information can be found on this page under the heading "Investment Fund" in the initial heading.',
     'page-about-info-call' => 'Call Us',
 
+    // PAGE INVESTMENT FUND
+    // PAGE INVESTMENT FUND
+    'page-fund-caption' => 'INVESTMENT FUND',
+    'page-fund-breadcrumbs-1' => 'Home',
+    'page-fund-breadcrumbs-2' => 'Fund',
+    'page-fund-caption-2' => 'GRS Capital is the Operator of a private investment fund focused on those
+                         investors interested in getting much more competitive returns for their money than the low returns
+                         obtained when the money remains in the bank or when it is invested in the traditional funds offered by said banks. ',
+    'page-fund-caption-3' => 'In the short term the main objective of this fund is to pay high returns at a low cost
+                         and with an acceptable risk for each type of investor. ',
+    'page-fund-features-caption' => 'FUND CHARACTERISTICS',
+
+    'page-fund-features-requirements' =>' <h4 style = "color: navajowhite"> Requirements </h4>
+                                            <ul class = "primary-list">
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> To access the background and To be part of it, you need to be of legal age and make a minimum initial investment of 50,000 USD. Such investment will be made directly to the fund\'s account in Switzerland. This account belongs to and is managed by the investment fund
+and investors\' deposits are made through a partnership contract with the fund. </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> You can also open accounts Private masters, which belong to the investor and are monitored and managed by himself, only the operation is executed by the investment fund. The minimum investment in this type of account is $ 500,000.
+                                                and it operates with the same risk criteria, fees and commissions of the standard accounts. </span> </li>
+                                            </ul> ',
+
+    'page-fund-features-terms' =>' <h4 style = "color: navajowhite"> Deadlines </h4>
+                                            <ul class = "primary-list">
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> Although useful withdrawals it is recommended and can be done month by month, the most recommended minimum period of stay in the fund is 6 months to one year </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> The profits not withdrawn are reinvested and become part of the total amount of the fund automatically, with the corresponding capital increase for the owners. </span> </li>
+                                            </ul> ',
+    'page-fund-features-destiny' => '<h4 style = "color: navajowhite"> Destination and Investment Amounts </h4>
+                                            <ul class = "primary-list">
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> The background, by the At the moment, the only destinations are investment in the foreign exchange market (Forex) and in the money market or fixed income. </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> Most of the total amount The fund may be invested in the market, as long as the rules of its risk control are guaranteed and complied with. </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> This is a background where Only the liquid resources deposited in the fund are managed, therefore there will be no need to make capital calls. </span> </li>
+                                            </ul> ',
+    'page-fund-features-strategy' => '<div class = "col-sm-12 col-md-10 col-sm-10 col-12">
+                                            <h4 style = "color: navajowhite"> Strategy </h4>
+                                            <ul class = "primary-list">
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> A strategy of medium / long term using technical analysis for which four indicators are used; two oscillators and two trend followers. The oscillators used are the Comfort Channel Index (CCI) and Stochastic Momentum Index (SMI) and the trend trackers are a Super Trend (SuperTrend) and a 200 period weighted moving average (MM200 ). </span> </li>
+                                            </ul>
+                                        </div> ',
+    'page-fund-admin-title' => 'ABOUT THE ADMINISTRATOR',
+    'page-fund-admin-phone' => 'Phone',
+    'page-fund-admin-skills' =>'<li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">The fund administrator is a Software Engineer and has a Master\'s degree in administration from the Instituto Superior Politécnico de la Ciudad de la Habana. </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">He is certified as a Master Trader by the Market Trader Institute in Orlando Florida and has more than 10 years of experience as a master operator of the FOREX market </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">It is also titled by Robert Kiyosaki\'s Rich Dad Coaching, for business creation and administration </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">Since 2014 he is Trader (Money Manager) in the Utah-based Apiary Investment Fund® Investment Fund </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">It is also certified by the Technological de Monterrey for the administration of Construction Companies, with experience in ecological and sustainable construction, as well as in the development of medium / high interest housing </span> </li>
+                        ',
+    'page-fund-chart-caption' => 'FUND RESULTS',
+    'page-fund-chart-year' => 'YEARLY',
+    'page-fund-chart-mon' => 'MONTHLY',
+    'page-fund-chart-title' => 'Fund profits graph',
+    'page-fund-chart-y-title' => 'Profits %',
+    'page-fund-chart-month' => '"May (05/2018)", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan (2019)", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan (2020)", "Feb", "Mar", "Apr", "May", "Jun"',
 
     // PAGE LEGAL
     'page-legal-content' => '<p><h2 style="color:moccasin">LEGAL WARNING</h2></p><p>&nbsp;</p>
@@ -131,7 +182,7 @@ return [
                         users and modify or manipulate their messages. The website reserves the right to withdraw all comments and contributions that violate respect for the dignity of the person, that are discriminatory, xenophobic, racist, pornographic, that threaten youth or childhood, order
                         or public security or that, in his opinion, were not suitable for publication. In any case, GRS Capital SA de CV will not be responsible for the opinions expressed by users through forums, chats, or other participation tools. </p><br>
                     <h5 style="color:moccasin">4. DATA PROTECTION</h5>
-                    <p class="text-justify text-white">GRS Capital SA de CV complies with the Data Protection Law and other regulations in force at all times, and ensures that the correct use and treatment of the user\'s personal data is guaranteed. For this, next to each form of personal data collection,
+                    <p class="text-justify text-white">GRS Capital SA de CV complies with the Data Protection Law and other regulations in force at all times, and ensures that the correct use and treatment of the user"s personal data is guaranteed. For this, next to each form of personal data collection,
                          In the services that the user may request from <span style = "color: moccasin"> contacto@grscapital.com.mx </span>, he will inform the user of the existence and acceptance of the particular conditions of the treatment of his data in each case, informing you of the responsibility of the file created, the address
                          of the person in charge, the possibility of exercising their rights of access, rectification, cancellation or opposition, the purpose of the treatment and data communications to third parties where appropriate.</p>
                     <br>
@@ -140,7 +191,7 @@ return [
                     software or texts; trademarks or logos, color combinations, structure and design, selection of used materials, computer programs necessary for its operation, access and use, etc.), owned by GRS Capital SA de CV or its licensors.</p>
                     <br>
                     <p class="text-justify text-white">Reproduction, distribution and public communication, including the method of making it available, of all or part of the contents of this website, for commercial purposes, in any medium and by any technical means, are expressly prohibited without authorization. de GRS Capital SA de CV.
-                         The USER undertakes to respect the Intellectual and Industrial Property rights owned by GRS Capital SA de CV. You can view the elements of the portal and even print, copy and store them on your computer\'s hard drive or any other physical medium as long as it is, solely and exclusively, for your personal and private use. The USER must refrain from deleting, altering, evading or manipulating any protection device or security system that was installed on the pages of GRS Capital SA de CV. </p><br>
+                         The USER undertakes to respect the Intellectual and Industrial Property rights owned by GRS Capital SA de CV. You can view the elements of the portal and even print, copy and store them on your computer"s hard drive or any other physical medium as long as it is, solely and exclusively, for your personal and private use. The USER must refrain from deleting, altering, evading or manipulating any protection device or security system that was installed on the pages of GRS Capital SA de CV. </p><br>
                     <h5 style="color:moccasin">6. EXCLUSION OF GUARANTEES AND RESPONSIBILITY</h5>
                     <p class="text-justify text-white">GRS Capital SA de CV is not responsible, in any case, for damages of any nature that may cause, by way of example: errors or omissions in the contents, lack of availability of the portal or the transmission of viruses or malicious programs or harmful in the content, despite having adopted all the necessary technological measures to avoid it. </p><br>
                     <h5 style="color:moccasin">7. MODIFICATIONS</h5>
@@ -176,7 +227,7 @@ The relationship between GRS Capital SA de CV and the USER will be governed by c
     // PAGE PRIVACI
     'page-privacy-content' => '<p><h2 style="color:moccasin">PRIVACY POLICY</h2></p><p>&nbsp;</p>
                     <p class="text-justify text-white">This Privacy Policy establishes the terms in which GRS Capital SA de CV uses and protects the information that is provided
-                         by its users when using their website. This company is committed to the security of its users\' data.
+                         by its users when using their website. This company is committed to the security of its users" data.
                          When we ask you to fill in the fields of personal information with which you can be identified, we do so by ensuring that only
                          will use in accordance with the terms of this document. However, this Privacy Policy may change over time or be updated
                          We therefore recommend and emphasize that you continually review this page to ensure that you agree to such changes.</p><p>&nbsp;</p>

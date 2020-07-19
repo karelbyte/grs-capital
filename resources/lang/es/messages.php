@@ -109,6 +109,57 @@ return [
     'page-about-msj-emit' => 'Actualmente, entre otras actividades, GRS Capital está funcionando como Operadora de un Fondo de Inversión mixto del cual se puede encontrar más información en esta página bajo el título ‘Fondo de Inversión’ en el encabezado inicial.',
     'page-about-info-call' => 'Contactanos',
 
+    // PAGE INVESTMENT FUND
+    'page-fund-caption' => 'FONDO DE INVERSION',
+    'page-fund-breadcrumbs-1' => 'Inicio',
+    'page-fund-breadcrumbs-2' => 'Fondo',
+    'page-fund-caption-2' => 'GRS Capital es La Operadora de un fondo de inversión privado enfocado en aquellos
+                        inversionistas interesados en obtener rendimientos mucho más competitivos por su dinero que los bajos rendimientos que se
+                        obtienen cuando el dinero permanece en el banco o cuando se invierte en los fondos tradicionales ofrecidos por dichos bancos.',
+    'page-fund-caption-3' => 'A corto plazo el objetivo principal de este fondo es pagar altos rendimientos a un bajo costo
+                        y con un riesgo aceptable para cada tipo de inversionista.',
+    'page-fund-features-caption' => 'CARACTERISTICAS DEL FONDO',
+    'page-fund-features-requirements' => '<h4 style="color: navajowhite">Requisitos</h4>
+                                            <ul class="primary-list">
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Para acceder al fondo y ser parte del mismo se necesita ser mayor de edad y hacer una inversión inicial mínima de ,50 mil USD. Dicha inversión se hará directamente a la cuenta del fondo en Suiza. Esta cuenta pertenece y es administrada por el fondo de inversión
+                                                y los depósitos de los inversionistas se hacen a través de un contrato de sociedad con el fondo.</span></li>
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify"> También se pueden abrir cuentas “master” privadas, las cuales pertenecen al inversionista y son monitoreadas y administradas por él mismo, solo la operación es ejecutada por el fondo de inversión. La inversión mínima en este tipo de cuenta es de ,500 mil USD
+                                                y se opera con los mismos criterios de riesgo, cuotas y comisiones de las cuentas estándar.</span></li>
+                                            </ul>',
+
+    'page-fund-features-terms' => '<h4 style="color: navajowhite">Plazos</h4>
+                                            <ul class="primary-list">
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Aunque los retiros de utilidad se recomienda y podrán hacerse mes con mes, el plazo mínimo más recomendable de estancia en el fondo es de 6 meses a un año</span></li>
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Las utilidades no retiradas son reinvertidas y pasan a ser parte del monto total del fondo de forma automática, con el correspondiente aumento de capital para los propietarios.</span></li>
+                                            </ul>',
+    'page-fund-features-destiny' => '<h4 style="color: navajowhite">Destino y Montos de Inversión</h4>
+                                            <ul class="primary-list">
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow; text-align:justify">El fondo, por el momento, tiene como únicos destinos la inversión en el mercado de divisas (Forex) y en el Mercado de dinero o de renta fija.</span></li>
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow; text-align:justify">La mayoría del monto total del fondo podrá invertirse en el mercado, siempre y cuando se garanticen y cumplan las reglas del control de riesgo del mismo.</span></li>
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow; text-align:justify">Este es un fondo donde se administran solo los recursos líquidos depositados en el fondo, por lo tanto no habrá necesidad de hacer llamados a capital.</span></li>
+                                            </ul>',
+    'page-fund-features-strategy' => '<div class="col-sm-12 col-md-10 col-sm-10 col-12">
+                                            <h4 style="color: navajowhite">Estrategia</h4>
+                                            <ul class="primary-list">
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Se usa una estrategia de mediano/largo plazo usando análisis técnico para el cual se emplean cuatro indicadores; dos osciladores y dos seguidores de tendencias. Los osciladores utilizados son el Comodity Channel Index (CCI por sus siglas en Ingles) y Estocástico Momentum Index (SMI por sus siglas en ingles) y los seguidores de tendencia son una Súper Tendencia (SuperTrend)  y una Media Móvil ponderada de 200 periodos (MM200).</span></li>
+                                            </ul>
+                                        </div>',
+    'page-fund-admin-title' => 'ABOUT THE ADMINISTRATOR',
+    'page-fund-admin-phone' => 'Telf',
+    'page-fund-admin-skills' =>'<li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">El administrador del fondo es Ingeniero en Software y cuenta con Maestría en administración por el Instituto Superior Politécnico de la Ciudad de la Habana </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">Esta certificado como Master Trader por el Market Trader Institute de Orlando Florida y posee más de 10 años de experiencia como operador master del mercado FOREX</span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">También está titulado por el Rich Dad Coaching de Robert Kiyosaki, para la creación y administración de negocios </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">Desde el año 2014 es Trader (Money Manager) en el Fondo de Inversión Apiary Investment Fund® con base en Utah, Estados Unidos. </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">Además está titulado por el Tecnológico de Monterrey para la administración de Empresas de la Construcción, contando con experiencia en construcción ecológica y sustentable, así como en desarrollo de viviendas de interés medio/alto </span> </li>
+                        ',
+    'page-fund-chart-caption' => 'RESULTADOS DE FONDO',
+    'page-fund-chart-year' => 'ANUAL',
+    'page-fund-chart-mon' => 'MENSUAL',
+    'page-fund-chart-title' => 'Gráfica ganancias fondo',
+    'page-fund-chart-y-title' => 'Ganacias %',
+    'page-fund-chart-month' =>  '"May (05/2018)", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic", "Ene (2019)", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic",  "Ene (2020)", "Feb", "Mar", "Abr", "May", "Jun"',
+
+
 
     // PAGE LEGAL
     'page-legal-content' => '<p><h2 style="color:moccasin">AVISO LEGAL</h2></p><p>&nbsp;</p>

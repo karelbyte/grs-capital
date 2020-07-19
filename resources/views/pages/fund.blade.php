@@ -4,12 +4,12 @@
     @component('components.top-bar')@endcomponent
     <!-- Navbar START -->
     @component('components.navbar')@endcomponent
-    <div class="page-title-section" style="background-image: url({{asset('img/contact.png')}});">
+    <div class="page-title-section" style="background-image: url({{asset('img/fund.png')}});">
         <div class="container">
-            <h1 style="color:rgb( 66, 64,58)">FONDO DE INVERSION</h1>
+            <h1 style="color:rgb( 66, 64,58)">{!!trans('messages.page-fund-caption')!!}</h1>
             <ul>
-                <li><a href="/" style="color:rgb( 66, 64,58)">Inicio</a></li>
-                <li><a href="#" style="color:rgb( 66, 64,58)">Fondo</a></li>
+                <li><a href="/" style="color:rgb( 66, 64,58)">{!!trans('messages.page-fund-breadcrumbs-1')!!}</a></li>
+                <li><a href="#" style="color:rgb( 66, 64,58)">{!!trans('messages.page-fund-breadcrumbs-2')!!}</a></li>
             </ul>
         </div>
     </div>
@@ -17,8 +17,8 @@
         <div class="container">
             <div class="row pb-5">
                 <div class="col-md-12 col-sm-12 col-12">
-                    <p class="text-justify mb-2" style="font-size: 16px; color: whitesmoke">GRS Capital es La Operadora de un fondo de inversión privado enfocado en aquellos inversionistas interesados en obtener rendimientos mucho más competitivos por su dinero que los bajos rendimientos que se obtienen cuando el dinero permanece en el banco o cuando se invierte en los fondos tradicionales ofrecidos por dichos bancos.</p>
-                    <p class="text-justify mb-2" style="font-size: 16px; color: whitesmoke">A corto plazo el objetivo principal de este fondo es pagar altos rendimientos a un bajo costo y con un riesgo aceptable para cada tipo de inversionista.</p>
+                    <p class="text-justify mb-2" style="font-size: 16px; color: whitesmoke">{!!trans('messages.page-fund-caption-2')!!}</p>
+                    <p class="text-justify mb-2" style="font-size: 16px; color: whitesmoke">{!!trans('messages.page-fund-caption-3')!!}</p>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-12 text-center">
-                    <h2 style="color:#e09d22">CARACTERISTICAS DEL FONDO</h2>
+                    <h2 style="color:#e09d22">{!!trans('messages.page-fund-features-caption')!!}</h2>
                 </div>
             </div>
             <div class="row">
@@ -41,13 +41,7 @@
                                             <i class="fa fa-check-circle-o"></i>
                                         </div>
                                         <div class="col-sm-12 col-md-10 col-sm-10 col-12">
-                                            <h4 style="color: navajowhite">Requisitos</h4>
-                                            <ul class="primary-list">
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Para acceder al fondo y ser parte del mismo se necesita ser mayor de edad y hacer una inversión inicial mínima de $50 mil USD. Dicha inversión se hará directamente a la cuenta del fondo en Suiza. Esta cuenta pertenece y es administrada por el fondo de inversión
-                                                y los depósitos de los inversionistas se hacen a través de un contrato de sociedad con el fondo.</span></li>
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify"> También se pueden abrir cuentas “master” privadas, las cuales pertenecen al inversionista y son monitoreadas y administradas por él mismo, solo la operación es ejecutada por el fondo de inversión. La inversión mínima en este tipo de cuenta es de $500 mil USD
-                                                y se opera con los mismos criterios de riesgo, cuotas y comisiones de las cuentas estándar.</span></li>
-                                            </ul>
+                                            {!!trans('messages.page-fund-features-requirements')!!}
                                         </div>
                                     </div>
                                 </div>
@@ -60,11 +54,7 @@
                                             <i class="fa fa-clock-o"></i>
                                         </div>
                                         <div class="col-sm-12 col-md-10 col-sm-10 col-12">
-                                            <h4 style="color: navajowhite">Plazos</h4>
-                                            <ul class="primary-list">
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Aunque los retiros de utilidad se recomienda y podrán hacerse mes con mes, el plazo mínimo más recomendable de estancia en el fondo es de 6 meses a un año</span></li>
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Las utilidades no retiradas son reinvertidas y pasan a ser parte del monto total del fondo de forma automática, con el correspondiente aumento de capital para los propietarios.</span></li>
-                                            </ul>
+                                            {!!trans('messages.page-fund-features-terms')!!}
                                         </div>
                                     </div>
                                 </div>
@@ -77,12 +67,7 @@
                                             <i class="fa fa-institution"></i>
                                         </div>
                                         <div class="col-sm-12 col-md-10 col-sm-10 col-12">
-                                            <h4 style="color: navajowhite">Destino y Montos de Inversión</h4>
-                                            <ul class="primary-list">
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow; text-align:justify">El fondo, por el momento, tiene como únicos destinos la inversión en el mercado de divisas (Forex) y en el Mercado de dinero o de renta fija.</span></li>
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow; text-align:justify">La mayoría del monto total del fondo podrá invertirse en el mercado, siempre y cuando se garanticen y cumplan las reglas del control de riesgo del mismo.</span></li>
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow; text-align:justify">Este es un fondo donde se administran solo los recursos líquidos depositados en el fondo, por lo tanto no habrá necesidad de hacer llamados a capital.</span></li>
-                                            </ul>
+                                            {!!trans('messages.page-fund-features-destiny')!!}
                                         </div>
                                     </div>
                                 </div>
@@ -94,12 +79,7 @@
                                         <div class="fund col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
                                             <i class="fa fa-line-chart"></i>
                                         </div>
-                                        <div class="col-sm-12 col-md-10 col-sm-10 col-12">
-                                            <h4 style="color: navajowhite">Estrategia</h4>
-                                            <ul class="primary-list">
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Se usa una estrategia de mediano/largo plazo usando análisis técnico para el cual se emplean cuatro indicadores; dos osciladores y dos seguidores de tendencias. Los osciladores utilizados son el Comodity Channel Index (CCI por sus siglas en Ingles) y Estocástico Momentum Index (SMI por sus siglas en ingles) y los seguidores de tendencia son una Súper Tendencia (SuperTrend)  y una Media Móvil ponderada de 200 periodos (MM200).</span></li>
-                                            </ul>
-                                        </div>
+                                        {!!trans('messages.page-fund-features-strategy')!!}
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +96,7 @@
             <div class="team-single">
                 <div class="row mb-5" style="border-bottom: 1px solid rgba(38,35,35,0.28)">
                     <div class="col-md-12 col-sm-12 col-12 text-center">
-                        <h2 style="color:#e3ae50">SOBRE EL ADMINISTRADOR</h2>
+                        <h2 style="color:#e3ae50">{!!trans('messages.page-fund-admin-title')!!}</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -131,15 +111,11 @@
                          <!--   <span>Agency Director</span> -->
                             <h3 style="color: whitesmoke; margin-top: 10px;">Alcides Diaz Santos</h3>
                             <ul class="team-single-info">
-                                <li><strong>Telf:</strong><span>(+755) 557 0669</span></li>
+                                <li><strong>{!!trans('messages.page-fund-admin-phone')!!}</strong><span>(+755) 557 0669</span></li>
                                 <li><strong>email</strong><span>admin@grscapital.com</span></li>
                             </ul>
                             <ul class="primary-list mt-40">
-                                <li style="text-align: justify" ><i class="fa fa-check"></i><span style="color: #caab88">El administrador del fondo es Ingeniero en Software y cuenta con Maestría en administración por el Instituto Superior Politécnico de la Ciudad de la Habana.</span></li>
-                                <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">Esta certificado como Master Trader por el Market Trader Institute de Orlando Florida y posee más de 10 años de experiencia como operador master del mercado FOREX</span></li>
-                                <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">También está titulado por el Rich Dad Coaching de Robert Kiyosaki, para la creación y administración de negocios</span></li>
-                                <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">Desde el año 2014 es Trader (Money Manager) en el Fondo de Inversión Apiary Investment Fund® con base en Utah, Estados Unidos</span></li>
-                                <li style="text-align: justify"><i class="fa fa-check"></i><span style="color: #caab88">Además está titulado por el Tecnológico de Monterrey para la administración de Empresas de la Construcción, contando con experiencia en construcción ecológica y sustentable, así como en desarrollo de viviendas de interés medio/alto</span></li>
+                                {!!trans('messages.page-fund-admin-skills')!!}
                             </ul>
                         </div>
                     </div>
@@ -153,7 +129,7 @@
             <div class="team-single">
                 <div class="row mb-5" style="border-bottom: 1px solid rgba(38,35,35,0.28)">
                     <div class="col-md-12 col-sm-12 col-12 text-center">
-                        <h2 style="color:#e3ae50">RESULTADOS DE FONDO</h2>
+                        <h2 style="color:#e3ae50"> {!!trans('messages.page-fund-chart-caption')!!}</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -213,18 +189,22 @@
             chart: {
                 type: 'spline'
             },
+            credits: {
+                enabled: false
+            },
+            colors: ['#ded68b', '#b48432'],
             title: {
-                text: 'Gráfica ganacias fondo'
+                text: "{!!trans('messages.page-fund-chart-title')!!}"
             },
             subtitle: {
                 text: '-'
             },
             xAxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                categories: [{!!trans('messages.page-fund-chart-month')!!}]
             },
             yAxis: {
                 title: {
-                    text: 'Ganacias %'
+                    text: "{!!trans('messages.page-fund-chart-y-title')!!}"
                 }
             },
             plotOptions: {
@@ -236,11 +216,39 @@
                 }
             },
             series: [{
-                name: 'Anual',
-                data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+                name: "{!!trans('messages.page-fund-chart-year')!!}",
+                data: [155.00
+                    ,254.00
+                    ,248.00
+                    ,347.00
+                    ,411.00
+                    ,341.00
+                    ,430.00
+                    ,411.00
+                    ,493.00
+                    ,560.00
+                    ,420.00
+                    ,520.00
+                    ,558.00
+                    ,592.00
+                    ,545.00
+                    ,540.00
+                    ,552.00
+                    ,550.00
+                    ,650.00
+                    ,669.00
+                    ,660.00
+                    ,796.00
+                    ,725.00
+                    ,846.00
+                    ,899.00
+                    ,929.00
+                ]
             }, {
-                name: 'Mensual',
-                data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+                name:  "{!!trans('messages.page-fund-chart-mon')!!}",
+                data: [0.00,99.00,-6.00,99.00,64.00,-70.00,89.00,-19.00,82.00,67.00,-140.00
+                    ,100.00,38.00,34.00,-47.00,-5.00,12.00,-2.00,100.00,19.00,-9.00,136.00,-71.00,121.00,53.00,143.00
+                ]
             }]
         });
     </script>
