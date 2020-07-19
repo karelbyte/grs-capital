@@ -37,7 +37,7 @@
                             <div class="col-md-12 col-sm-12 col-12">
                                 <div class="contact-info-section-fix">
                                     <div class="row">
-                                        <div class="fund col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
+                                        <div class="fund d-none d-md-block col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
                                             <i class="fa fa-check-circle-o"></i>
                                         </div>
                                         <div class="col-sm-12 col-md-10 col-sm-10 col-12">
@@ -50,7 +50,7 @@
                             <div class="col-md-12 col-sm-12 col-12">
                                 <div class="contact-info-section-fix">
                                     <div class="row">
-                                        <div class="fund col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
+                                        <div class="fund d-none d-md-block col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
                                             <i class="fa fa-clock-o"></i>
                                         </div>
                                         <div class="col-sm-12 col-md-10 col-sm-10 col-12">
@@ -63,7 +63,7 @@
                             <div class="col-md-12 col-sm-12 col-12">
                                 <div class="contact-info-section-fix">
                                     <div class="row">
-                                        <div class="fund col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
+                                        <div class="fund d-none d-md-block  col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
                                             <i class="fa fa-institution"></i>
                                         </div>
                                         <div class="col-sm-12 col-md-10 col-sm-10 col-12">
@@ -76,7 +76,7 @@
                             <div class="col-md-12 col-sm-12 col-12">
                                 <div class="contact-info-section-fix">
                                     <div class="row">
-                                        <div class="fund col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
+                                        <div class="fund d-none d-md-block col-sm-12 col-md-2 col-sm-2 col-4 center-holder">
                                             <i class="fa fa-line-chart"></i>
                                         </div>
                                         {!!trans('messages.page-fund-features-strategy')!!}
