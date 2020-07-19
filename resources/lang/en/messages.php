@@ -162,7 +162,8 @@ and investors\' deposits are made through a partnership contract with the fund. 
     'page-fund-chart-title' => 'Fund profits graph',
     'page-fund-chart-y-title' => 'Profits %',
     'page-fund-chart-month' => '"May (05/2018)", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan (2019)", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan (2020)", "Feb", "Mar", "Apr", "May", "Jun"',
-
+    'page-fund-pdf-1' => 'Get detailed information',
+    'page-fund-pdf-2' => 'here',
     // PAGE LEGAL
     'page-legal-content' => '<p><h2 style="color:moccasin">LEGAL WARNING</h2></p><p>&nbsp;</p>
                     <h5 style="color:moccasin">1. IDENTIFICATION DATA</h5>

@@ -158,7 +158,8 @@ return [
     'page-fund-chart-title' => 'Gráfica ganancias fondo',
     'page-fund-chart-y-title' => 'Ganacias %',
     'page-fund-chart-month' =>  '"May (05/2018)", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic", "Ene (2019)", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic",  "Ene (2020)", "Feb", "Mar", "Abr", "May", "Jun"',
-
+    'page-fund-pdf-1' =>'Obten informacion detallada ',
+    'page-fund-pdf-2' =>'aqui',
 
 
     // PAGE LEGAL

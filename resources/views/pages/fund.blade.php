@@ -139,6 +139,11 @@
                         </figure>
                     </div>
                 </div>
+                <div class="row mb-5">
+                    <div class="col-md-12 col-sm-12 col-12 text-center">
+                        <span style="color: #e3ae50;">{!!trans('messages.page-fund-pdf-1')!!} <a href="{{asset('fund-results.pdf')}}" target="_blank" style="color: #e3e1d2; font-style:italic">{!!trans('messages.page-fund-pdf-2')!!}</a> .</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
