@@ -40,6 +40,7 @@
                             <i class="icon-diamond2" style="color:black;"></i>
                             <h4>{!!trans('messages.info-box-item2-head')!!}</h4>
                             <p style="color:rgb(73, 52, 24); text-align: justify ">{!!trans('messages.info-box-item2-caption')!!}</p>
+                            <br>
                         </div>
                     </div>
 
