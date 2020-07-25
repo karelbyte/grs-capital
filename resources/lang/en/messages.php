@@ -121,14 +121,17 @@ return [
                          obtained when the money remains in the bank or when it is invested in the traditional funds offered by said banks. ',
     'page-fund-caption-3' => 'In the short term the main objective of this fund is to pay high returns at a low cost
                          and with an acceptable risk for each type of investor. ',
+    'page-fund-caption-4' => 'Although the fund is based and currently operates from Mexico, the depository for investments in the foreign exchange market (FOREX), is the bank
+      Swiss Swissquote Bank and all investment operations in said market are made through its Advanced Trader platform.',
+
     'page-fund-features-caption' => 'FUND CHARACTERISTICS',
 
     'page-fund-features-requirements' =>' <h4 style = "color: navajowhite"> Requirements </h4>
                                             <ul class = "primary-list">
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> To access the background and To be part of it, you need to be of legal age and make a minimum initial investment of 50,000 USD. Such investment will be made directly to the fund\'s account in Switzerland. This account belongs to and is managed by the investment fund
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> To access the background and To be part of it, you need to be of legal age and make a minimum initial investment of 50,000 USD. Such investment will be made directly to the fund\'s account. This account belongs to and is managed by the investment fund
 and investors\' deposits are made through a partnership contract with the fund. </span> </li>
                                                 <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> You can also open accounts Private masters, which belong to the investor and are monitored and managed by himself, only the operation is executed by the investment fund. The minimum investment in this type of account is $ 500,000.
-                                                and it operates with the same risk criteria, fees and commissions of the standard accounts. </span> </li>
+                                                and it operates with the same risk criteria, fees and commissions of the standard accounts, these accounts are opened directly by the investor in Swissquote Bank, which is our depositary bank in Switzerland. </span> </li>
                                             </ul> ',
 
     'page-fund-features-terms' =>' <h4 style = "color: navajowhite"> Deadlines </h4>

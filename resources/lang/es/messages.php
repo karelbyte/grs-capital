@@ -118,13 +118,14 @@ return [
                         obtienen cuando el dinero permanece en el banco o cuando se invierte en los fondos tradicionales ofrecidos por dichos bancos.',
     'page-fund-caption-3' => 'A corto plazo el objetivo principal de este fondo es pagar altos rendimientos a un bajo costo
                         y con un riesgo aceptable para cada tipo de inversionista.',
+    'page-fund-caption-4' => 'Aunque el fondo está radicado y opera actualmente desde México, el depositario para inversiones en el mercado de divisas (FOREX), es el banco Suizo Swissquote Bank y todas las operaciones de inversión en dicho mercado se hacen a través de su plataforma Advanced Trader.',
     'page-fund-features-caption' => 'CARACTERISTICAS DEL FONDO',
     'page-fund-features-requirements' => '<h4 style="color: navajowhite">Requisitos</h4>
                                             <ul class="primary-list">
-                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Para acceder al fondo y ser parte del mismo se necesita ser mayor de edad y hacer una inversión inicial mínima de 50 mil USD. Dicha inversión se hará directamente a la cuenta del fondo en Suiza. Esta cuenta pertenece y es administrada por el fondo de inversión
+                                                <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify">Para acceder al fondo y ser parte del mismo se necesita ser mayor de edad y hacer una inversión inicial mínima de 50 mil USD. Dicha inversión se hará directamente a la cuenta del fondo. Esta cuenta pertenece y es administrada por el fondo de inversión
                                                 y los depósitos de los inversionistas se hacen a través de un contrato de sociedad con el fondo.</span></li>
                                                 <li style="text-align: justify"><i class="fa fa-caret-right"></i><span style="color:lightgoldenrodyellow;  text-align:justify"> También se pueden abrir cuentas “master” privadas, las cuales pertenecen al inversionista y son monitoreadas y administradas por él mismo, solo la operación es ejecutada por el fondo de inversión. La inversión mínima en este tipo de cuenta es de ,500 mil USD
-                                                y se opera con los mismos criterios de riesgo, cuotas y comisiones de las cuentas estándar.</span></li>
+                                                y se opera con los mismos criterios de riesgo, cuotas y comisiones de las cuentas estándar, estas cuentas son abiertas directamente por el inversionista en Swissquote Bank que es nuestro banco depositario en Suiza</span></li>
                                             </ul>',
 
     'page-fund-features-terms' => '<h4 style="color: navajowhite">Plazos</h4>

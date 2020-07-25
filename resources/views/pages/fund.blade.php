@@ -19,6 +19,7 @@
                 <div class="col-md-12 col-sm-12 col-12">
                     <p class="text-justify mb-2" style="font-size: 16px; color: whitesmoke">{!!trans('messages.page-fund-caption-2')!!}</p>
                     <p class="text-justify mb-2" style="font-size: 16px; color: whitesmoke">{!!trans('messages.page-fund-caption-3')!!}</p>
+                    <p class="text-justify mb-2" style="font-size: 16px; color: whitesmoke">{!!trans('messages.page-fund-caption-4')!!}</p>
                 </div>
             </div>
         </div>
