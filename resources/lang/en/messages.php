@@ -160,11 +160,12 @@ and investors\' deposits are made through a partnership contract with the fund. 
                                 <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">It is also titled by Robert Kiyosaki\'s Rich Dad Coaching, for business creation and administration </span> </li>
                                 <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">It is also certified by the Technological de Monterrey for the administration of Construction Companies, with experience in ecological and sustainable construction, as well as in the development of medium / high interest housing </span> </li>
                         ',
-    'page-fund-chart-caption' => 'FUND RESULTS',
-    'page-fund-chart-year' => 'YEARLY',
+    'page-fund-chart-caption' => 'RESULTS OF THE FUND',
+    'page-fund-chart-caption-1' => 'Although we recognize and must be aware that past results do not guarantee future results, we are proud to report that our Investment Fund in the last 26 months of operation brings an ROI ( Return on investment) monthly average of 18.5% and a total accumulated Return of just over 480% for the aforementioned period.',
+    'page-fund-chart-year' => 'ACCUMULATED',
     'page-fund-chart-mon' => 'MONTHLY',
-    'page-fund-chart-title' => 'Fund profits graph',
-    'page-fund-chart-y-title' => 'Profits %',
+    'page-fund-chart-title' => 'Fund Results Graph',
+    'page-fund-chart-y-title' => 'Results $',
     'page-fund-chart-month' => '"May (05/2018)", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan (2019)", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "Jan (2020)", "Feb", "Mar", "Apr", "May", "Jun"',
     'page-fund-pdf-1' => 'Get detailed information',
     'page-fund-pdf-2' => 'here',

@@ -154,11 +154,12 @@ return [
                                 <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">También está titulado por el Rich Dad Coaching de Robert Kiyosaki, para la creación y administración de negocios. </span> </li>
                                 <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">Además está titulado por el Tecnológico de Monterrey para la administración de Empresas de la Construcción, contando con experiencia en construcción ecológica y sustentable, así como en desarrollo de viviendas de interés medio/alto. </span> </li>
                         ',
-    'page-fund-chart-caption' => 'RESULTADOS DE FONDO',
-    'page-fund-chart-year' => 'ANUAL',
+    'page-fund-chart-caption' => 'RESULTADOS DEL FONDO',
+    'page-fund-chart-caption-1' => 'Aunque reconocemos y debemos estar conscientes de que resultados pasados no garantizan resultados futuros, nos sentimos orgullosos de informar que nuestro Fondo de Inversión en los últimos 26 meses de operación trae un ROI (Retorno de la inversión) promedio mensual de 18.5% y un Retorno acumulado total de poco más de 480% para el periodo antes mencionado.',
+    'page-fund-chart-year' => 'ACUMULADO',
     'page-fund-chart-mon' => 'MENSUAL',
-    'page-fund-chart-title' => 'Gráfica ganancias fondo',
-    'page-fund-chart-y-title' => 'Ganacias %',
+    'page-fund-chart-title' => 'Grafica Resultados del Fondo',
+    'page-fund-chart-y-title' => 'Resultados $',
     'page-fund-chart-month' =>  '"May (05/2018)", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic", "Ene (2019)", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic",  "Ene (2020)", "Feb", "Mar", "Abr", "May", "Jun"',
     'page-fund-pdf-1' =>'Obten informacion detallada ',
     'page-fund-pdf-2' =>'aqui',

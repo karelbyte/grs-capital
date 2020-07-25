@@ -133,6 +133,13 @@
                         <h2 style="color:#e3ae50"> {!!trans('messages.page-fund-chart-caption')!!}</h2>
                     </div>
                 </div>
+                <div class="row mb-5">
+                    <div class="col-md-12 col-sm-12 col-12 text-center">
+                        <p class="text-justify" style="color:#9d8968">
+                         {!!trans('messages.page-fund-chart-caption-1')!!}
+                        </p>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-12 text-center">
                         <figure class="highcharts-figure">
@@ -193,7 +200,8 @@
     <script>
         Highcharts.chart('chart', {
             chart: {
-                type: 'spline'
+                type: 'spline',
+                height: 700
             },
             credits: {
                 enabled: false
