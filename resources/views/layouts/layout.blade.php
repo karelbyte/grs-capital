@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <title>GRS-Capital</title>
+    <title>Inversion, forex</title>
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" href="{{asset('img/logos/icon.png')}}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Forex, Inversion, Fondo de Inversion, Capital, Investment, Investment Fund, Capital">
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/font-awesome.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/icomoon.css')}}">
@@ -27,7 +28,7 @@
     </div>
 </div>
 @yield('content')
-<!-- Footer START -->
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FElpuertodigital-101480131669910&tabs=messages&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe><!-- Footer START -->
 @component('components.footer')@endcomponent
 @include('cookieConsent::index')
 <!-- Scroll to top button Start -->

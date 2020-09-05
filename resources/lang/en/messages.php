@@ -16,13 +16,11 @@ return [
                                  Learn to invest and transmit that knowledge
                                  to our children it is not a mere diversion,
                                  it is an inescapable obligation.',
-    'parallax-head-2' => 'Magical Answer!',
-    'parallax-content-2' => 'We guarantee it works, we at GRS have worked superbly. Here we can synthesize it in a simple way,
-         you do not have to search for <b> "wealth" </b> as an abstract concept, your search must be oriented towards achieving
-          <b> financial independence. </b>',
+    'parallax-head-2' => 'Winning Strategy!',
+    'parallax-content-2' => 'There is a "magic key" about the money making and we can synthesize it in a simple way. You don\'t have to search for "wealth" as an abstract concept; your search has to be geared toward achieving <b>"financial freedom"</b>',
     'parallax-head-3' => 'Money never sleeps!',
-    'parallax-content-3' => 'Financial independence is achieved by learning to invest for passive income (income for which you do not
-     you have to work, that is, money generating money), and continue with this activity until they exceed your usual expenses.',
+    'parallax-content-3' => 'Financial independence is achieved by learning to invest for <b>passive income</b> (income for which you do not
+     have to work, that is, money generating money), and continue with this activity until they exceed your usual expenses.',
     'parallax-contact' => 'Contact us',
     // INFO STAR
     'info-start-caption'  => 'We are agile and reliable in our investments.',
@@ -38,27 +36,23 @@ return [
     'info-box-caption-2' => 'Increase your assets with us.',
     'info-box-caption-3' => 'We work with you',
     'info-box-content' => 'There are different types of investors according to the risk that they are willing to accept. We can help you
-                             to find out what type of investor you are and we can also help you develop a short investment portfolio,
-                             medium and long term, diversified and with different levels of risk in Real Estate, Financial Markets,
-                             Currency Exchange (Forex), among others ...',
+                             to find out what type of investor you are and we can also help you develop a short, médium and long term portfolio, with different levels of risk and diversified in Real State, Financial and Currency markets (FOREX), among others.',
     'info-box-contact' => 'Wants to know more?',
     'info-box-item1-head' => 'High risk.',
-    'info-box-item1-caption' => 'It seeks the highest possible returns, understands the risk/return ratio and is willing
+    'info-box-item1-caption' => 'You seeks the highest possible returns, understands the risk/return ratio and are willing
     to take the appropriate risk according to the expected return.',
     'info-box-item2-head' => 'Moderate risk.',
-    'info-box-item2-caption' => 'It assumes an intermediate risk, being able to have a combination of high risk/return investments with
-      some low risk.',
+    'info-box-item2-caption' => 'You assumes an intermediate risk, being able to have a combination of high risk/return investments with
+      some low risk investments.',
     'info-box-item3-head' => 'Minimal risk.',
-    'info-box-item3-caption' => 'He doesn"t like to risk his assets, but he understands the need to move money, so he wants to invest it,
-     but at the lowest possible risk.',
+    'info-box-item3-caption' => 'You don’t like to risk your capital, but you understand the need to move the money so you want to invest it, but at the lowest possible risk’',
     'info-box-item4-head' => 'Zero Risk.',
-    'info-box-item4-caption' => 'You do not tolerate risk, but still do not want your money to depreciate and seek to expire at least
-     inflation without putting your money at risk.',
+    'info-box-item4-caption' => 'You do not tolerate risk, but still do not want your money to depreciate and seek to beat at least the inflation without putting your money at risk.',
 
 
     // FEATURES
     'features-caption-1' => 'Do the right thing at the right time!',
-    'features-caption-2' => 'Every serious investment portfolio must be structured taking into account three plans.',
+    'features-caption-2' => 'Every serious investment portfolio must be structured taking into consideration three plans.',
     'features-plan1-head' => 'Plan to be rich',
     'features-plan1-caption' => 'High risk, high returns!',
     'features-plan2-head' => 'Plan to be comfortable',
@@ -68,11 +62,11 @@ return [
 
     // Feeback
     'feedback-question' => 'Questions arise?',
-    'feedback-p1' => 'There are many reasons why you may want to get in touch, <b> hire our services </b>,
+    'feedback-p1' => 'There are many reasons why you may want to get in touch, hire our services,
                              consult your doubts, information about the investments that interest you.',
     'feedback-p2' => 'They are all great reasons, so go ahead!',
-    'feedback-p3' => 'Request more information and receive the personalized advice of our advisors without obligation.',
-    'feedback-p4' => 'Don"t forget to check our Privacy Clause.',
+    'feedback-p3' => 'Request more information and receive the personalized advice of our team without any obligation.',
+    'feedback-p4' => 'Don\'t forget to check our Privacy Clause.',
     'feedback-send-caption' => 'Send us your information and we will contact you shortly',
     'feedback-send-name' => 'Name and surname',
     'feedback-send-email' => 'Email',
@@ -97,19 +91,19 @@ return [
     'page-contact-info-days' => 'Mon-Fri',
 
     // Page about
-    'page-about-caption' => 'About',
+    'page-about-caption' => 'About us',
     'page-about-breadcrumbs-1' => 'Home',
     'page-about-breadcrumbs-2' => 'About',
-    'page-about-msj-caption' => 'GRS Capital is a company with more than 10 years of experience in the financial system. Founded in 2009, it started operations as a SOFOM (Multiple Purpose Financial Company), whose main purpose was, among others:',
+    'page-about-msj-caption' => 'GRS Capital is a company with more than 10 years of experience in the financial system. Founded in 2009, it started operations as a SOFOM (Multiple Purpose Financial Company), whose main objectives were, among others:',
     'page-about-msj-terms-1' => '<li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Fundraising from qualified instruments, as well as from financial institutions in the
                                      country and abroad. </span> </li>
-                                 <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Grant financing to individuals and companies as micro small and medium-sized companies. </span> </li>
+                                 <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow">Offer financing to individuals and companies as micro, small and medium-sized companies. </span> </li>
                                  <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Perform Financial Leasing and Factoring operations. </span> </li>',
-    'page-about-msj-name' => 'In 2014, the Mexican State increased the regulatory and prudential legal regulations for SOFOMs, which presented legal, economic and corporate disadvantages for this type of companies, leading to more than 80% of them closing their operations. In this context, GRS Capital changed its Regime and Company Purpose, migrating to a Variable Capital Company (SA de CV) and also changed its company purpose, having as of that date some of its main activities.',
-    'page-about-msj-message' => '<li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Act as an investor in the national and international financial system, in fixed income, variable income, foreign exchange (FOREX) and metals markets, among others.</span> </li>
-                                 <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> The purchase, sale, construction, development, administration and operation of all types of movable and immovable property in general, such as houses, buildings, apartments, condominiums, hotels, shopping centers, among others. </span > </li>',
-    'page-about-msj-emit' => 'Currently, among other activities, GRS Capital is operating as the Operator of a mixed Investment Fund, of which more information can be found on this page under the heading "Investment Fund" in the initial heading.',
-    'page-about-info-call' => 'Call Us',
+    'page-about-msj-name' => 'In 2014, the Mexican State increased the regulatory and prudential legal regulations for SOFOMs, which presented legal, economic and corporate disadvantages for this type of companies, leading to more than 80% of them closing their operations. In this context, GRS Capital changed its Regime and Company Purpose, migrating to a Variable Capital Company (SA de CV) and also changed its company purpose, having now as some of its main activities.',
+    'page-about-msj-message' => '<li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> Act as an investor in the national and international financial system, in the Bond market, Stock market and Currency market among others.</span> </li>
+                                 <li> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow"> The purchase, sale, construction, development, administration and operation of all types of Real states such as houses, buildings, apartments, condominiums, hotels, shopping centers, among others. </span > </li>',
+    'page-about-msj-emit' => 'Currently GRS Capital is the Operator of a private mix Investment Fund. You can find more information about this Fund on this page under the heading "Investment Fund".',
+    'page-about-info-call' => 'Wants to know more?’',
 
     // PAGE INVESTMENT FUND
     // PAGE INVESTMENT FUND
@@ -121,47 +115,46 @@ return [
                          obtained when the money remains in the bank or when it is invested in the traditional funds offered by said banks. ',
     'page-fund-caption-3' => 'In the short term the main objective of this fund is to pay high returns at a low cost
                          and with an acceptable risk for each type of investor. ',
-    'page-fund-caption-4' => 'Although the fund is based and currently operates from Mexico, the depository for investments in the foreign exchange market (FOREX), is the bank
-      Swiss Swissquote Bank and all investment operations in said market are made through its Advanced Trader platform.',
+    'page-fund-caption-4' => 'Although the fund is based and currently operates from Mexico, the depository for investments in the foreign exchange market (FOREX),
+    is the Swiss bank Swissquote and all investment operations in said market are made through their Advanced Trader trading platform.',
 
     'page-fund-features-caption' => 'FUND CHARACTERISTICS',
 
     'page-fund-features-requirements' =>' <h4 style = "color: navajowhite"> Requirements </h4>
                                             <ul class = "primary-list">
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> To access the background and To be part of it, you need to be of legal age and make a minimum initial investment of 50,000 USD. Such investment will be made directly to the fund\'s account. This account belongs to and is managed by the investment fund
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">To be partner of the Fund you need to be of legal, you need to be of legal age and make a minimum initial investment of 50,000 USD. Such investment will be made directly to the fund\'s account. This account belongs to and is managed by the investment fund
 and investors\' deposits are made through a partnership contract with the fund. </span> </li>
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> You can also open accounts Private masters, which belong to the investor and are monitored and managed by himself, only the operation is executed by the investment fund. The minimum investment in this type of account is $ 500,000.
-                                                and it operates with the same risk criteria, fees and commissions of the standard accounts, these accounts are opened directly by the investor in Swissquote Bank, which is our depositary bank in Switzerland. </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">You can also open private Master accounts, which belong to the investor and are monitored and managed by himself, only the operation is executed by the investment fund.
+                                                 The minimum investment in this type of account is $500,000 USD. This types of accounts operates with the same risk criteria, fees and commissions of the standard accounts, this accounts are opened directly by the investor in Swissquote Bank, which is our depositary bank in Switzerland. </span> </li>
                                             </ul> ',
 
-    'page-fund-features-terms' =>' <h4 style = "color: navajowhite"> Deadlines </h4>
+    'page-fund-features-terms' =>' <h4 style = "color: navajowhite"> Periods and withdrawals’ </h4>
                                             <ul class = "primary-list">
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> Although useful withdrawals it is recommended and can be done month by month, the most recommended minimum period of stay in the fund is 6 months to one year </span> </li>
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify"> The profits not withdrawn are reinvested and become part of the total amount of the fund automatically, with the corresponding capital increase for the owners. </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">Although withdrawals are recommended and can be done on a monthly basis, the most recommended minimum period to stay in the fund is of 6 months to one year. </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">The profits not withdrawn are automatically reinvested in the fund, with the corresponding capital increase for the investor.</span> </li>
                                             </ul> ',
-    'page-fund-features-destiny' => '<h4 style = "color: navajowhite"> Destination and Investment Amounts </h4>
+    'page-fund-features-destiny' => '<h4 style = "color: navajowhite">Investment Portfolio </h4>
                                             <ul class = "primary-list">
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">The fund, for the moment, has as its only destinations investment in the foreign exchange market (Forex) and in the money market or short-term fixed income</span> </li>
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">Most of the total amount of the fund may be invested in the aforementioned markets, as long as the risk control rules of the same are guaranteed and complied with. </span> </li>
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">This is a background where Only the liquid resources deposited in the fund are managed, therefore there will be no need to make capital calls. </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">The fund, for the moment, invest only in the foreign exchange market (Forex) and in the money market (short-term bond market).</span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">Most or the total amount of the fund may be invested in the aforementioned markets, as long as the risk control rules are guaranteed and followed </span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">This is an Investment Fund where only the liquid resources deposited in the fund are operated, therefore there will be no need to make capital calls.</span> </li>
                                             </ul> ',
     'page-fund-features-strategy' => '<div class = "col-sm-12 col-md-10 col-sm-10 col-12">
                                             <h4 style = "color: navajowhite"> Strategy </h4>
                                             <ul class = "primary-list">
-                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">Our investment decisions are made based on a medium / long term strategy using technical analysis.
-                                                 In this strategy we use four indicators or technical analysis instruments, of which two are oscillators and two are trend followers. The oscillators used are a Commodity Analyzer and a Stochastic. As trend followers two weighted Moving Averages from different periods are used.</span> </li>
+                                                <li style = "text-align: justify"> <i class = "fa fa-caret-right"> </i> <span style = "color: lightgoldenrodyellow; text-align: justify">Our investment decisions are made based on a medium / long term strategy using quantum or technical analysis. The strategy use four indicators or technical analysis instruments, two oscillators and two trend followers.</span> </li>
                                             </ul>
                                         </div> ',
-    'page-fund-admin-title' => 'ABOUT THE ADMINISTRATOR',
+    'page-fund-admin-title' => 'ABOUT THE FUND ADMINISTRATOR',
     'page-fund-admin-phone' => 'Phone',
-    'page-fund-admin-skills' =>'<li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">The fund administrator is a Software Engineer and has a Master\'s degree in administration from the Instituto Superior Politécnico de la Ciudad de la Habana. </span> </li>
-                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">He is certified as a Master Trader by the Market Trader Institute in Orlando Florida and has more than 10 years of experience as a master operator of the FOREX market </span> </li>
-                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">Since 2014 he is Trader (Money Manager) in the Utah-based Apiary Investment Fund® Investment Fund </span> </li>
-                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">It is also titled by Robert Kiyosaki\'s Rich Dad Coaching, for business creation and administration </span> </li>
-                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">It is also certified by the Technological de Monterrey for the administration of Construction Companies, with experience in ecological and sustainable construction, as well as in the development of medium / high interest housing </span> </li>
+    'page-fund-admin-skills' =>'<li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">The fund administrator is a Software Engineer and has an MBA from the Polytechnic Institute of Habana City, Cuba. </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">He is certified as a Master Trader by the Market Trader Institute in Orlando Florida and has more than 10 years of experience as a master operator of the FOREX market. </span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">Since 2014 he is a Trader (Money Manager) in the Utah-based Apiary Investment Fund®.</span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">He is also titled by Robert Kiyosaki\'s Rich Dad Coaching, for business creation and administration.</span> </li>
+                                <li style = "text-align: justify"> <i class = "fa fa-check"> </i> <span style = "color:#caab88">esides he is certified by the Technologic of Monterrey as a Construction Companies administrator. He has wide experience in ecological and sustainable construction, as well as in the development of medium / high luxury housing.</span> </li>
                         ',
-    'page-fund-chart-caption' => 'RESULTS OF THE FUND',
-    'page-fund-chart-caption-1' => 'Although we recognize and must be aware that past results do not guarantee future results, we are proud to report that our Investment Fund in the last 26 months of operation brings an ROI ( Return on investment) monthly average of 18.5% and a total accumulated Return of just over 480% for the aforementioned period.',
+    'page-fund-chart-caption' => 'TRACK RECORD OF THE FUND',
+    'page-fund-chart-caption-1' => 'Although we recognize and must be aware that past results do not guarantee future results, we are proud to report that our Investment Fund in the last 26 months of operation brings an average monthly ROI (Return on investment) of 18.5% and a total accumulated return of 480% for the the aforementioned period.',
     'page-fund-chart-year' => 'ACCUMULATED',
     'page-fund-chart-mon' => 'MONTHLY',
     'page-fund-chart-title' => 'Fund Results Graph',
@@ -309,7 +302,7 @@ The relationship between GRS Capital SA de CV and the USER will be governed by c
 
     // FOOTER
     'footer-caption' => 'GRS Capital SA de CV and GRS Investment Company ®',
-    'footer-content' => 'Investment Fund and Registered Trademark of Grupo RSantos SA de CV, a Mexican company dedicated to wealth management, seeking excellent investment opportunities, either in Real State, the Financial System or the Currency Market.',
+    'footer-content' => 'Are and Investment Fund and a Registered Trademark of Grupo RSantos SA de CV, a Mexican company dedicated to wealth management, seeking excellent investment opportunities, either in Real State, the Financial System or the Currency Market.',
     'footer-link-home' => 'Home',
     'footer-link-l1' => 'Strategies',
     'footer-link-l2' => 'Privacy policies',
