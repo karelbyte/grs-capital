@@ -50,3 +50,20 @@ Route::get('/investment-fund', function () {
 });
 
 Route::get('lang/{lang}', 'LanguageController@swap')->name('lang.swap');
+
+
+Route::get('/limpiar_cache', function () {
+
+    Artisan::call('view:clear');
+
+    Artisan::call('route:clear');
+
+    Artisan::call('cache:clear');
+
+    Artisan::call('config:clear');
+
+    Artisan::call('config:cache');
+
+    return 'CACHE DEL SISTEMA LIMPIADA CON EXITO';
+
+});
