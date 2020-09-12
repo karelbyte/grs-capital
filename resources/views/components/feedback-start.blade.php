@@ -1,4 +1,4 @@
-<div class="section-block" style="background-image: url({{asset('img/dudas_i.png')}});  background-repeat: no-repeat;
+<div id="email" class="section-block" style="background-image: url({{asset('img/dudas_i.png')}});  background-repeat: no-repeat;
     background-size: cover;">
     <div class="container">
         <div class="row">
@@ -16,24 +16,40 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-12">
+            <div  class="col-md-6 col-sm-6 col-12">
                 <div class="feedback-box">
                     <h5>{!!trans('messages.feedback-send-caption')!!}</h5>
-                    <form method="post" action="#" class="feedback-form" autocomplete="off">
+                    <form method="post" action="/email-to-client" class="feedback-form" autocomplete="off">
+                        @csrf
                         <div class="row mt-10">
                             <div class="col-md-6 col-12">
-                                <input type="text" name="name" placeholder="{!!trans('messages.feedback-send-name')!!}">
+                                <input type="text" name="name" value="{{old('name')}}" placeholder="{!!trans('messages.feedback-send-name')!!}">
+                                @error('name')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="col-md-6 col-12">
-                                <input type="email" name="email" placeholder="{!!trans('messages.feedback-send-email')!!}">
+                                <input type="email" name="email" value="{{old('email')}}" placeholder="{!!trans('messages.feedback-send-email')!!}">
+                                @error('email')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="col-md-12">
-                                <textarea name="message" placeholder="{!!trans('messages.feedback-send-msj')!!}"></textarea>
+                                <textarea name="message"  value="{{old('message')}}" placeholder="{!!trans('messages.feedback-send-msj')!!}"></textarea>
+                                @error('message')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
+                            <input type="text" name="url" value="/" hidden>
                         </div>
                         <button type="submit">{!!trans('messages.feedback-send-emit')!!}</button>
                     </form>
                 </div>
+                @if (session('msj'))
+                    <div class="alert alert-success">
+                        {!!trans('messages.send-msj-success')!!}
+                    </div>
+                @endif
             </div>
         </div>
     </div>

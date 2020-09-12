@@ -72,6 +72,7 @@ return [
     'feedback-send-email' => 'Email',
     'feedback-send-msj' => 'Your message',
     'feedback-send-emit' => 'Send',
+    'send-msj-success' => 'Your message was sent correctly!',
 
 
     // Page contact

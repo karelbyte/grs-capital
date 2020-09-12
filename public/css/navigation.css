@@ -1200,3 +1200,19 @@
   padding: 15px 0px;
   text-align: right;
 }
+
+@media only screen and (min-width: 997px) {
+    .li-hidden {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    .li-hidden {
+        padding: 10px 0 10px 23px !important;
+    }
+    .li-hidden a {
+        display: inline !important;
+        padding: 12px 0 12px 0 !important;
+    }
+}

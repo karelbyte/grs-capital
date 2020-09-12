@@ -13,7 +13,7 @@
     </ul>
   </div>
 </div>
-<div class="section-block">
+<div id="email" class="section-block">
     <div class="container">
         <div class="row">
             <div class="col-md-7 col-sm-7 col-12">
@@ -23,26 +23,41 @@
                 </div>
                 <div class="contact-form-box mt-30">
                     <!-- Form START -->
-                    <form class="contact-form">
+                    <form class="contact-form" method="post" action="/email-to-client">
+                        @csrf
                         <div class="row">
-
                             <div class="col-md-6 col-sm-6 col-12">
                                 <input type="text" name="name" placeholder="{!!trans('messages.page-contact-msj-name')!!}">
+                                @error('name')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="col-md-6 col-sm-6 col-12">
                                 <input type="email" name="email" placeholder="{!!trans('messages.page-contact-msj-email')!!}">
+                                @error('email')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
 
                             <div class="col-md-12">
                                 <textarea name="message" placeholder="{!!trans('messages.page-contact-msj-message')!!}"></textarea>
+                                @error('message')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="col-md-4 mb-30">
                                 <button class="primary-button button-md" type="submit">{!!trans('messages.page-contact-msj-emit')!!}</button>
                             </div>
+                            <input type="text" name="url" value="/contact/" hidden>
                         </div>
                     </form>
                     <!-- Form END -->
                 </div>
+                @if (session('msj'))
+                    <div class="alert alert-success">
+                        {!!trans('messages.send-msj-success')!!}
+                    </div>
+                @endif
             </div>
 
             <div class="col-md-5 col-sm-5 col-12">

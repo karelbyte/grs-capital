@@ -72,6 +72,7 @@ return [
     'feedback-send-email' => 'Correo electrónico',
     'feedback-send-msj' => 'Su mensaje',
     'feedback-send-emit' => 'Enviar',
+    'send-msj-success' => 'Su mensaje fue enviado correctamente!',
 
 
 

@@ -19,6 +19,7 @@ class LangMiddleware
     {
         if (config('locale.status')) {
             if (session()->has('locale') &&
+
                 in_array(session()->get('locale'), array_keys(config('locale.languages')))) {
 
                 app()->setLocale(session()->get('locale'));

@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Redirect;
 */
 
 
+Route::get('/email-test', function () {
+    return view('pages.email');
+});
+
+Route::post('/email-to-client', 'AppController@emailToClient');
+
 Route::get('/', function () {
     return view('index');
 });
