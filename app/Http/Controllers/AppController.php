@@ -21,7 +21,7 @@ class AppController extends Controller
 
         Mail::to($request->email)->send(new UserContactMail($request->all()));
 
-        Mail::to('alcides@grscapital.com.mx')->send(new AdminMail($request->all()));
+       // Mail::to('alcides@grscapital.com.mx')->send(new AdminMail($request->all()));
 
         return redirect( $request->url .'#email')->with('msj', '-');
     }

@@ -16,7 +16,6 @@ class ClientMailRequest extends FormRequest
         return true;
     }
 
-    protected $redirect = '/#email';
     /**
      * Get the validation rules that apply to the request.
      *
@@ -24,6 +23,8 @@ class ClientMailRequest extends FormRequest
      */
     public function rules()
     {
+        $this->redirect =  url()->previous() . '/#email';
+
         return [
             'name' => 'required|string|min:1',
             'email' => 'required|email',

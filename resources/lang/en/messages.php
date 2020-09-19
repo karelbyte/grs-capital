@@ -7,7 +7,7 @@ return [
     'nav-services-administration' => 'Administration',
     'nav-services-results' => 'Results',
     'nav-projects' => 'PROJECTS',
-    'nav-about' => 'ABOUT',
+    'nav-about' => 'ABOUT US',
     'nav-contact' => 'CONTACT',
     // TEXTO DE LOS SLIDES PARALLAX
     'parallax-head-1' => 'We are the smart way!',

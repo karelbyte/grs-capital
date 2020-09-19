@@ -30,6 +30,8 @@ class UserContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('pages.email');
+        $view =  app()->getLocale() == 'es' ? 'pages.email' : 'pages.email_en';
+
+        return $this->view($view);
     }
 }
