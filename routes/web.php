@@ -67,3 +67,15 @@ Route::get('/limpiar_cache', function () {
     return 'CACHE DEL SISTEMA LIMPIADA CON EXITO';
 
 });
+
+Route::get('/artisan', function () {
+
+    Artisan::call('migrate:fresh --seed');
+
+    return 'DB MIGRADA CON EXITO';
+});
+
+
+Auth::routes();
+
+Route::get('/admin', 'AdminController@index')->name('admin');
